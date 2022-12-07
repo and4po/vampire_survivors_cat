@@ -1,1 +1,1 @@
-# vampire_survivors_cat
+# Traducció al Català del videojoc Vampire Survivors
