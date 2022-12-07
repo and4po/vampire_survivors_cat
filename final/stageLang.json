@@ -1,0 +1,137 @@
+{
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "FOREST": {
+        "stageName": "Mad Forest",
+        "description": "Once a thriving haven, now a dumping ground for evil. A vampire is said to be the root of this evil, but we can find only mayhem and roast chicken.",
+        "hyperTips": "50% Gold bonus"
+      },
+      "LIBRARY": {
+        "stageName": "Inlaid Library",
+        "description": "The Futile Scribe was cursed to know all and understand nothing. His endless library may gift us insight… or damnation. A mask of stone whispers endlessly within.",
+        "hyperTips": "50% Gold bonus\n10% Luck bonus"
+      },
+      "GREENACRES": {
+        "stageName": "Green Acres",
+        "description": "Fate changes by the minute in a realm where mortals can only trespass. What rewards await those who challenge its rules? Treasure? Glory? Poultry?",
+        "tips": "Random enemy waves from normal stages",
+        "hyperTips": "50% Gold bonus\n10% Luck bonus",
+        "stagenNumber": "Challenge"
+      },
+      "WAREHOUSE": {
+        "stageName": "Dairy Plant",
+        "description": "The birthplace of Milk Magic churns with chaos. Here, it’s not just blood that curdles. A secret map awaits the hero brave enough to enter this overthrown factory.",
+        "hyperTips": "50% Gold bonus\n10% Luck bonus"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "The flowers seem to sing here, calling out to weary heroes. Is such an unspoilt place even real? Does it matter? Is there roast chicken?",
+        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies' health +60%",
+        "tips": "Enemies don't move"
+      },
+      "TOWER": {
+        "stageName": "Gallo Tower",
+        "description": "An edifice of science and sorcery where horror was made manifest in the name of progress. Its many artifacts and experiments may lead us to what we seek."
+      },
+      "BONEZONE": {
+        "stageName": "The Bone Zone",
+        "description": "Calcified carnage awaits where the dead go to live. If we speak unholy vespers we will open the way, but should we not go home? Have we not dug too deep?",
+        "tips": "No item drops. Enemies grow stronger over time."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "Legend tells of a city swallowed by the sea under a full moon’s callous watch. Home to mysteries unknown, we ought to see what lies within its walls.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
+      },
+      "CHAPEL": {
+        "stageName": "Cappella Magna",
+        "description": "Conceited were they that ruled from so high yet stooped so low. This nexus of debased purity is the perfect place to find a vampire. Probably."
+      },
+      "RASH": {
+        "stageName": "Boss Rash",
+        "description": "The monsters want entertainment, and if we win their game, the loot is ours for the taking. Let us face these recycled assets and do what we do best… survive!"
+      },
+      "MACHINE": {
+        "stageName": "Eudaimonia M.",
+        "description": "A path to the edge of our world. The floor is lava."
+      },
+      "MACHINE2": {
+        "stageName": "The Three Circles"
+      }
+    }
+  },
+
+  "ca": {
+    "english": "Catalan",
+    "native": "Català",
+    "api": "catalan",
+    "translations": {
+      "FOREST": {
+        "stageName": "Bosc Dement",
+        "description": "",
+        "hyperTips": "50% Bonus d'or"
+      },
+      "LIBRARY": {
+        "stageName": "Biblioteca Encastada",
+        "description": "",
+        "hyperTips": "50% Bonus d'or\n10% Bonus de sort"
+      },
+      "GREENACRES": {
+        "stageName": "Acres Verds",
+        "description": "",
+        "tips": "Onades enemigues aleatories als escenaris normals",
+        "hyperTips": "50% Bonus d'or\n10% Bonus de sort",
+        "stagenNumber": "Repte"
+      },
+      "WAREHOUSE": {
+        "stageName": "Planta de Làctis",
+        "description": "",
+        "hyperTips": "50% Bonus d'or\n10% Bonus de sort"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "",
+        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies' health +60%",
+        "tips": "Els enemics no es mouen"
+      },
+      "TOWER": {
+        "stageName": "Torre Gallo",
+        "description": ""
+      },
+      "BONEZONE": {
+        "stageName": "La Zona d'Ossos",
+        "description": "",
+        "tips": "No cauen objectes. Els enemics es fan més forts amb el temps."
+      },
+      "SINKING": {
+        "stageName": "",
+        "description": "",
+        "tips": ""
+      },
+      "STAGEX": {
+        "description": ""
+      },
+      "CHAPEL": {
+        "stageName": "",
+        "description": ""
+      },
+      "RASH": {
+        "stageName": "",
+        "description": ""
+      },
+      "MACHINE": {
+        "stageName": "",
+        "description": ""
+      },
+      "MACHINE2": {
+        "stageName": ""
+      }
+    }
+  }
+}

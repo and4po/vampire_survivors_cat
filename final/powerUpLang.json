@@ -1,0 +1,185 @@
+{
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "POWER": {
+        "name": "Might",
+        "description": "Raises inflicted Damage by 5% per rank (max +25%)."
+      },
+      "REGEN": {
+        "name": "Recovery",
+        "description": "Recovers 0.1 HP per rank (max 0.5) per second."
+      },
+      "MAXHEALTH": {
+        "name": "Max Health",
+        "description": "Augments Max Health by 10% per rank (max +30%)."
+      },
+      "ARMOR": {
+        "name": "Armor",
+        "description": "Reduces incoming Damage by 1 per rank (max -3)."
+      },
+      "AREA": {
+        "name": "Area",
+        "description": "Augments area of attacks by 5% per rank (max +10%)."
+      },
+      "SPEED": {
+        "name": "Speed",
+        "description": "Projectiles move 10% faster per rank (max 20%)."
+      },
+      "COOLDOWN": {
+        "name": "Cooldown",
+        "description": "Uses weapons 2.5% faster per rank (max 5%)."
+      },
+      "DURATION": {
+        "name": "Duration",
+        "description": "Effects from weapons last 15% longer per rank (max +30%)."
+      },
+      "AMOUNT": {
+        "name": "Amount",
+        "description": "Fires 1 more projectile (all weapons)."
+      },
+      "MOVESPEED": {
+        "name": "Move Speed",
+        "description": "Character moves 5% faster per rank (max 10%)."
+      },
+      "MAGNET": {
+        "name": "Magnet",
+        "description": "Items Pickup range +25% per rank (max +50%)."
+      },
+      "LUCK": {
+        "name": "Luck",
+        "description": "Chance to get lucky goes up by 10% per rank (max +30%)."
+      },
+      "GROWTH": {
+        "name": "Growth",
+        "description": "Gains 3% more experience per rank (max 15%)."
+      },
+      "GREED": {
+        "name": "Greed",
+        "description": "Gains 10% more Gold per rank (max +50%)."
+      },
+      "SHIELD": {
+        "name": "Shield",
+        "description": "Prevents damage for one attack. Stacks with Laurel."
+      },
+      "REVIVAL": {
+        "name": "Revival",
+        "description": "Revives once with 50% health."
+      },
+      "REROLL": {
+        "name": "Reroll",
+        "description": "Twice per rank, allows you to get different choices when leveling up."
+      },
+      "SKIP": {
+        "name": "Skip",
+        "description": "Twice per rank, allows you to skip level up choices and get Experience instead."
+      },
+      "CURSE": {
+        "name": "Curse",
+        "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+      },
+      "BANISH": {
+        "name": "Banish",
+        "description": "Twice per rank, allows you to remove an item from level up choices, for the rest of the run."
+      },
+      "PANDORA": {
+        "name": "Omni",
+        "description": "Increases Might, Projectile Speed, Duration, and Area by 2% per rank (max +10%)."
+      }
+    }
+  },
+
+  "ca": {
+    "english": "Catalan",
+    "native": "Català",
+    "api": "catalan",
+    "translations": {
+      "POWER": {
+        "name": "Potència",
+        "description": "Augmenta Dany aplicat per 5% per rang (max +25%)."
+      },
+      "REGEN": {
+        "name": "Recuperar",
+        "description": "Recupera 0.1 PV per segon per rang (0.5 max)."
+      },
+      "MAXHEALTH": {
+        "name": "Salut Màx",
+        "description": "Augmenta la salut màxima per 10% per rang (max +30%)."
+      },
+      "ARMOR": {
+        "name": "Armadura",
+        "description": "Redueix el D  any rebut per 1 per rang (max -3)."
+      },
+      "AREA": {
+        "name": "Àrea",
+        "description": "Augmenta l'àrea dels atacs per 5% per rang (max +10%)."
+      },
+      "SPEED": {
+        "name": "Velocitat",
+        "description": "Els projectils es mouen 10% més ràpid per rang (max 20%)."
+      },
+      "COOLDOWN": {
+        "name": "Recarga",
+        "description": "Usa les armes 2.5% més ràpid per rang (max 5%)."
+      },
+      "DURATION": {
+        "name": "Duració",
+        "description": "Els efectes de les armes duren 15% més per rang (max +30%)."
+      },
+      "AMOUNT": {
+        "name": "Quantitat",
+        "description": "Llença 1 projectil més (totes les armes)."
+      },
+      "MOVESPEED": {
+        "name": "Vel Mov",
+        "description": "El personatge es mou 5% més ràpid per rang (max 10%)."
+      },
+      "MAGNET": {
+        "name": "Imant",
+        "description": "El radi de Recollida augmenta +25% per rang (max +50%)."
+      },
+      "LUCK": {
+        "name": "Sort",
+        "description": "La probabilitat de fer sort puja per 10% per rang (max +30%)."
+      },
+      "GROWTH": {
+        "name": "Creixement",
+        "description": "Aconsegueix 3% més d'experiència per rang (max 15%)."
+      },
+      "GREED": {
+        "name": "Avaricia",
+        "description": "Guanya un 10% més d'Or per rang (max +50%)."
+      },
+      "SHIELD": {
+        "name": "Escut",
+        "description": "Anul·la el dany d'un atac. S'acumula amb Laurel."
+      },
+      "REVIVAL": {
+        "name": "Resurrecció",
+        "description": "Reviu una vegada amb 50% de salut."
+      },
+      "REROLL": {
+        "name": "Segón Llençament",
+        "description": "Dues vegades per rang, permet tenir diferents opcions quan es puja de nivell."
+      },
+      "SKIP": {
+        "name": "Ometre",
+        "description": "Dues vegades per rang, us permet ometre opcions de pujada de nivell i obtenir Experiencia."
+      },
+      "CURSE": {
+        "name": "Maledicció",
+        "description": "Augmenta velocitat d'enemics, salut, quantitat, i freqüència per 10% per rang (max +50%)."
+      },
+      "BANISH": {
+        "name": "Desaparició",
+        "description": "Dues vegades per rang, permet retirar un objecte de les opcions de pujada de nivell, per la resta de la sessió."
+      },
+      "PANDORA": {
+        "name": "",
+        "description": ""
+      }
+    }
+  }
+}

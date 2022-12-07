@@ -1,0 +1,799 @@
+{
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "WHIP": {
+        "name": "Whip",
+        "description": "Attacks horizontally, passes through enemies.",
+        "tips": "Ignores: Speed, Duration."
+      },
+      "VAMPIRICA": {
+        "name": "Bloody Tear",
+        "description": "Evolved Whip. Can deal critical damage and absorb HP.",
+        "tips": "Requires: Hollow Heart"
+      },
+      "MAGIC_MISSILE": {
+        "name": "Magic Wand",
+        "description": "Fires at the nearest enemy.",
+        "tips": "Ignores: Duration."
+      },
+      "HOLY_MISSILE": {
+        "name": "Holy Wand",
+        "description": "Evolved Magic Wand. Fires with no delay.",
+        "tips": "Requires: Empty Tome."
+      },
+      "AXE": {
+        "name": "Axe",
+        "description": "High damage, high Area scaling.",
+        "tips": "Ignores: Duration."
+      },
+      "SCYTHE": {
+        "name": "Death Spiral",
+        "description": "Evolved Axe. Passes through enemies.",
+        "tips": "Requires: Candelabrador."
+      },
+      "KNIFE": {
+        "name": "Knife",
+        "description": "Fires quickly in the faced direction.",
+        "tips": "Ignores: Duration."
+      },
+      "THOUSAND": {
+        "name": "Thousand Edge",
+        "description": "Evolved Knife. Fires with no delay.",
+        "tips": "Requires: Bracer."
+      },
+      "HOLYWATER": {
+        "name": "Santa Water",
+        "description": "Generates damaging zones.",
+        "tips": "Ignores: Speed."
+      },
+      "DIAMOND": {
+        "name": "Runetracer",
+        "description": "Passes through enemies, bounces around.",
+        "tips": "Best with: Speed, Duration."
+      },
+      "FIREBALL": {
+        "name": "Fire Wand",
+        "description": "Fires at a random enemy, deals heavy damage.",
+        "tips": "Ignores: Duration."
+      },
+      "HELLFIRE": {
+        "name": "Hellfire",
+        "description": "Evolved Fire Wand. Passes through enemies.",
+        "tips": "Requires: Spinach."
+      },
+      "HOLYBOOK": {
+        "name": "King Bible",
+        "description": "Orbits around the character.",
+        "tips": "Best with: Speed, Duration, Area."
+      },
+      "VESPERS": {
+        "name": "Unholy Vespers",
+        "description": "Evolved King Bible. Never ends.",
+        "tips": "Requires: Spellbinder."
+      },
+      "CROSS": {
+        "name": "Cross",
+        "description": "Aims at nearest enemy, has boomerang effect.",
+        "tips": "Ignores: Duration."
+      },
+      "HEAVENSWORD": {
+        "name": "Heaven Sword",
+        "description": "Evolved Cross. Can deal critical damage.",
+        "tips": "Requires: Clover."
+      },
+      "GARLIC": {
+        "name": "Garlic",
+        "description": "Damages nearby enemies. Reduces resistance to knockback and freeze.",
+        "tips": "Ignores: Amount, Duration, Speed."
+      },
+      "LAUREL": {
+        "name": "Laurel",
+        "description": "Shields from damage when active.",
+        "tips": "Best with: Cooldown only."
+      },
+      "LIGHTNING": {
+        "name": "Lightning Ring",
+        "description": "Strikes at random enemies.",
+        "tips": "Ignores: Speed, Duration."
+      },
+      "PENTAGRAM": {
+        "name": "Pentagram",
+        "description": "Erases everything in sight.",
+        "tips": "Best with: Cooldown and Luck only.",
+        "customDescValue": "%0% chance to not erase items."
+      },
+      "SILF": {
+        "name": "Peachone",
+        "description": "Bombards in a circling zone.",
+        "tips": "Best with: Cooldown, Duration."
+      },
+      "SILF2": {
+        "name": "Ebony Wings",
+        "description": "Bombards in a circling zone.",
+        "tips": "Best with: Cooldown, Duration."
+      },
+      "BONE": {
+        "name": "Bone",
+        "description": "Throws a bouncing projectile.",
+        "tips": "Best with: Duration, Speed."
+      },
+      "LANCET": {
+        "name": "Clock Lancet",
+        "description": "Chance to freeze enemies in time.",
+        "tips": "Ignores: Might, Speed, Amount, Area."
+      },
+      "POWER": {
+        "name": "Spinach",
+        "description": "Raises inflicted damage by 10%."
+      },
+      "AREA": {
+        "name": "Candelabrador",
+        "description": "Augments area of attacks by 10%."
+      },
+      "SPEED": {
+        "name": "Bracer",
+        "description": "Increases projectile speed by 10%."
+      },
+      "COOLDOWN": {
+        "name": "Empty Tome",
+        "description": "Reduces weapon cooldown by 8%."
+      },
+      "DURATION": {
+        "name": "Spellbinder",
+        "description": "Increases duration of weapon effects by 10%."
+      },
+      "AMOUNT": {
+        "name": "Duplicator",
+        "description": "Weapons fire more projectiles."
+      },
+      "MAXHEALTH": {
+        "name": "Hollow Heart",
+        "description": "Augments Max Health by 20%."
+      },
+      "ARMOR": {
+        "name": "Armor",
+        "description": "Reduces incoming Damage by 1. Increases retaliatory Damage by 10%."
+      },
+      "MOVESPEED": {
+        "name": "Wings",
+        "description": "Character moves 10% faster."
+      },
+      "MAGNET": {
+        "description": "Character picks up items from further away.",
+        "name": "Attractorb"
+      },
+      "GROWTH": {
+        "name": "Crown",
+        "description": "Character gains 8% more experience."
+      },
+      "LUCK": {
+        "name": "Clover",
+        "description": "Character gets 10% luckier."
+      },
+      "GREED": {
+        "name": "Stone Mask",
+        "description": "Character earns 10% more Gold coins."
+      },
+      "REGEN": {
+        "name": "Pummarola",
+        "description": "Character recovers 0.2 HP per second."
+      },
+      "VORTEX": {
+        "name": "Soul Eater",
+        "description": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
+        "tips": "Requires: Pummarola."
+      },
+      "BORA": {
+        "name": "La Borra",
+        "description": "Evolved Santa Water. Damaging zones follow you and grow when they move.",
+        "tips": "Requires: Attractorb."
+      },
+      "SILF3": {
+        "name": "Vandalier",
+        "description": "Union of Ebony Wings and Peachone."
+      },
+      "REVIVAL": {
+        "name": "Tiragisú",
+        "description": "Revives once with 50% Health."
+      },
+      "LOOP": {
+        "name": "Thunder Loop",
+        "description": "Evolved Lightning Ring. Projectiles strike twice.",
+        "tips": "Requires: Duplicator."
+      },
+      "CURSE": {
+        "name": "Skull O'Maniac",
+        "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+      },
+      "CHERRY": {
+        "name": "Cherry Bomb",
+        "description": "Throws a bouncing projectile. Explodes, sometimes.",
+        "tips": "Best with: Luck.",
+        "customDescValue": "%0% chance to explode."
+      },
+      "SONG": {
+        "name": "Song of Mana",
+        "description": "Attacks vertically, passes through enemies.",
+        "tips": "Ignores: Amount, Speed."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Evolved Song of Mana. Might slow enemies down.",
+        "tips": "Requires: Skull O'Maniac"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
+      },
+      "GUNS": {
+        "name": "Phiera Der Tuphello",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "Ignores: Duration."
+      },
+      "GUNS2": {
+        "name": "Eight The Sparrow",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "Ignores: Duration."
+      },
+      "GUNS3": {
+        "name": "Phieraggi",
+        "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
+        "tips": "Requires: Tiragisú."
+      },
+      "ROCHER": {
+        "name": "NO FUTURE",
+        "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+        "tips": "Requires: Armor"
+      },
+      "CART2": {
+        "name": "Carréllo",
+        "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
+        "tips": "Ignores: Duration."
+      },
+      "GATTI": {
+        "name": "Gatti Amari",
+        "description": "Summons capricious projectiles. Might interact with pickups.",
+        "tips": "Best with: Luck, Floor Chicken."
+      },
+      "FLOWER": {
+        "name": "Celestial Dusting",
+        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+        "tips": "Best with: Move Speed.",
+        "customDescValue": "Defeated enemies might drop hearts."
+      },
+      "TRAPANO": {
+        "name": "Shadow Pinion",
+        "description": "Generates damaging zones when moving, strikes when stopping.",
+        "tips": "Best with: Move Speed."
+      },
+      "TRAPANO2": {
+        "name": "Valkyrie Turner",
+        "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+        "tips": "Requires: Wings."
+      },
+      "STIGRANGATTI": {
+        "name": "Vicious Hunger",
+        "description": "Evolved Gatti Amari. Might turn anything into gold.",
+        "tips": "Requires: Stone Mask."
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming Damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies' health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
+      },
+      "VENTO": {
+        "name": "Vento Sacro",
+        "description": "Stronger with continuous movement. Can deal critical damage.",
+        "tips": "Best with: Luck, Move Speed."
+      },
+      "VENTO2": {
+        "name": "Fuwalafuwaloo",
+        "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions."
+      },
+      "PANDORA": {
+        "tips": "Torrona's Box",
+        "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
+        "customDescValue": "Increases Might, Projectile Speed, Duration, and Area by %0%",
+        "customOverrideValue": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by %0%",
+        "name": "Torrona's Box"
+      },
+      "ROBBA": {
+        "tips": "Best with: Duration, Speed.",
+        "description": "Generates bouncing projectiles.",
+        "name": "La Robba"
+      },
+      "TRIASSO1": {
+        "name": "Bracelet",
+        "description": "Fires three projectiles at a random enemy."
+      },
+      "TRIASSO2": {
+        "name": "Bi-Bracelet",
+        "description": "Fires three projectiles at a random enemy."
+      },
+      "TRIASSO3": {
+        "name": "Tri-Bracelet",
+        "description": "Fires three projectiles at a random enemy."
+      },
+      "SILF_COUNTER": {
+        "name": "Cygnus",
+        "description": "Bombards in a circling zone.",
+        "tips": "Best with: Cooldown, Duration."
+      },
+      "SILF2_COUNTER": {
+        "name": "Zhar Ptytsia",
+        "description": "Bombards in a circling zone.",
+        "tips": "Best with: Cooldown, Duration."
+      },
+      "GUNS_COUNTER": {
+        "name": "Red Muscle",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "Ignores: Duration."
+      },
+      "GUNS2_COUNTER": {
+        "name": "Twice Upon a Time",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "Ignores: Duration."
+      },
+      "CANDYBOX": {
+        "name": "Candybox",
+        "description": "Allows you to choose any unlocked base weapon.",
+        "tips": "Occurrence in level up options affected by Luck."
+      },
+      "VICTORY": {
+        "name": "Victory Sword",
+        "description": "Strikes with a combo attack at the nearest enemy. Retaliates.",
+        "tips": "Ignores: Speed, Duration.",
+        "customDescValue": "Enables critical hits and combo finisher."
+      },
+      "SOLES": {
+        "name": "Sole Solution",
+        "description": "Gift of Victory Sword. The more enemies are defeated, the stronger it grows.",
+        "tips": "Requires Max: Victory Sword, Torrona's Box."
+      },
+      "JUBILEE": {
+        "name": "Greatest Jubilee",
+        "description": "Has a chance to summon light sources.",
+        "tips": "Best with: Luck.",
+        "customDescValue": "Enables finisher."
+      },
+      "MISSPELL": {
+        "name": "Flames of Misspell",
+        "description": "Emits cones of flames."
+      },
+      "MISSPELL2": {
+        "description": "Evolved Flames of Misspell. The more enemies are defeated, the stronger it grows.",
+        "tips": "Requires Max: Torrona's Box.",
+        "name": "Ashes of Muspell"
+      },
+      "GATTI_COUNTER": {
+        "name": "Flock Destroyer",
+        "description": "Summons capricious projectiles. Might interact with pickups.",
+        "tips": "Best with: Luck, Floor Chicken."
+      }
+    }
+  },
+
+  "ca": {
+    "english": "Catalan",
+    "native": "Català",
+    "api": "catalan",
+    "translations": {
+      "WHIP": {
+        "name": "Fuet",
+        "description": "Ataca horitzontalment, passa a través d'enemics.",
+        "tips": "Ignora: Velocitat, Duració."
+      },
+      "VAMPIRICA": {
+        "name": "Llàgrima de Sang",
+        "description": "Fuet evolucionat. Pot causar dany crític i absorbir PV.",
+        "tips": "Requereix: Cor Buit."
+      },
+      "MAGIC_MISSILE": {
+        "name": "Vareta Màgica",
+        "description": "Dispara a l'enemic més proper.",
+        "tips": "Ignora: Durada."
+      },
+      "HOLY_MISSILE": {
+        "name": "Vareta sagrada",
+        "description": "Vareta Màgica evolucionada. Dispara sense pausa.",
+        "tips": "Requereix: Volum Buit."
+      },
+      "AXE": {
+        "name": "Destral",
+        "description": "Dany alt, gran escalació d'Àrea.",
+        "tips": "Ignora: Durada."
+      },
+      "SCYTHE": {
+        "name": "Espiral Letal",
+        "description": "Destral evolucionada. passa a través d'enemics.",
+        "tips": "Requereix: Candelabrador."
+      },
+      "KNIFE": {
+        "name": "Ganivet",
+        "description": "Dispara ràpidament en la direcció on es mira.",
+        "tips": "Ignora: Durada."
+      },
+      "THOUSAND": {
+        "name": "Mil Talls",
+        "description": "Ganivet evolucionat. Dispara sense pausa.",
+        "tips": "Requereix: Guantellet."
+      },
+      "HOLYWATER": {
+        "name": "Aigua Santa",
+        "description": "Genera zones danyines.",
+        "tips": "Ignora: Velocitat."
+      },
+      "DIAMOND": {
+        "name": "Runa Làser",
+        "description": "Passa a través d'enemics, rebota arreu.",
+        "tips": "Millor amb: velocitat, Durada."
+      },
+      "FIREBALL": {
+        "name": "Vareta Ígnia",
+        "description": "Dispara a un enemic aleatori, causa danys greus.",
+        "tips": "Ignora:  Durada."
+      },
+      "HELLFIRE": {
+        "name": "Flames Infernals",
+        "description": "Vareta Ígnia evolucionada. Passa a través d'enemics.",
+        "tips": "Requereix: Espinaques."
+      },
+      "HOLYBOOK": {
+        "name": "Bíblia Reial",
+        "description": "Orbita arreu del personatge.",
+        "tips": "Millor amb: Velocitat, Durada, Àrea."
+      },
+      "VESPERS": {
+        "name": "Vespres Profans",
+        "description": "Bíblia Reial evolucionada. Mai termina.",
+        "tips": "Requereix: Lligaconjurs."
+      },
+      "CROSS": {
+        "name": "Creu",
+        "description": "Apunta a l'enemic més proper, té efecte bumerang.",
+        "tips": "ignora: Durada."
+      },
+      "HEAVENSWORD": {
+        "name": "Espasa Celestial",
+        "description": "Creu evolucionada. Pot causar dany crític.",
+        "tips": "Requereix: Trèbol."
+      },
+      "GARLIC": {
+        "name": "All",
+        "description": "Danya enemics propers. Redueix resisència a empentes i glaçada.",
+        "tips": "Ignora: Quantitat, Durada, Velocitat."
+      },
+      "LAUREL": {
+        "name": "Llorer",
+        "description": "Protegeix del dany mentre és actiu.",
+        "tips": "Millor amb: només recarga."
+      },
+      "LIGHTNING": {
+        "name": "Anell Elèctric",
+        "description": "Ataca a enemics aleatoris.",
+        "tips": "Ignora: Velocitat, Durada."
+      },
+      "PENTAGRAM": {
+        "name": "Pentagrama",
+        "description": "Elimina tots alló visible.",
+        "tips": "Millor amb: només recàrrega i sort.",
+        "customDescValue": ""
+      },
+      "SILF": {
+        "name": "Colomí",
+        "description": "Bombardeja en un radi circular.",
+        "tips": "Millor amb: Recàrrega, Durada."
+      },
+      "SILF2": {
+        "name": "Ales de Banús",
+        "description": "Bombardeja en un radi circular.",
+        "tips": "Millor amb: Recàrrega, Durada."
+      },
+      "BONE": {
+        "name": "Os",
+        "description": "Llença un projectil que rebota.",
+        "tips": "Millor amb: Durada, Velocitat."
+      },
+      "LANCET": {
+        "name": "Llanceta Temporal",
+        "description": "Possibilitat de congelar enemics al temps.",
+        "tips": "Ignora: Poder, Velocidad, Quantitat, Àrea."
+      },
+      "POWER": {
+        "name": "Espinacs",
+        "description": "Augmenta dany inflingit en un 10%."
+      },
+      "AREA": {
+        "name": "Candelabrador",
+        "description": "Augments l'àrea dels atacs en un 10%."
+      },
+      "SPEED": {
+        "name": "Guantellet",
+        "description": "Augmenta la velocitat dels projectils en un 10%."
+      },
+      "COOLDOWN": {
+        "name": "Volum Buit",
+        "description": "Redueix la recarga d'armes en un 8%."
+      },
+      "DURATION": {
+        "name": "Lligaconjurs",
+        "description": "Augmenta la durada d'efectes d'armes en un 10%."
+      },
+      "AMOUNT": {
+        "name": "Duplicador",
+        "description": "Armes disparen més projectils."
+      },
+      "MAXHEALTH": {
+        "name": "Cor Buit",
+        "description": "Augmenta salut màxima en un 20%."
+      },
+      "ARMOR": {
+        "name": "Armadura",
+        "description": "Redueix dany rebut per 1. Increases retaliatory Damage by 10%."
+      },
+      "MOVESPEED": {
+        "name": "Ales",
+        "description": "El personatge es mou un 10% més ràpid."
+      },
+      "MAGNET": {
+        "description": "El personatge aconsegueix objectes de més lluny.",
+        "name": "Attractorb"
+      },
+      "GROWTH": {
+        "name": "Corona",
+        "description": "El personatge guanya 8% més d'experiència."
+      },
+      "LUCK": {
+        "name": "Trèbol",
+        "description": "El personatge es té 10% més sort."
+      },
+      "GREED": {
+        "name": "Màscara de Pedra",
+        "description": "El personatge aconsegueix 10% més monedes."
+      },
+      "REGEN": {
+        "name": "Pummarola",
+        "description": "El personatge recupera 0.2 PV per segon."
+      },
+      "VORTEX": {
+        "name": "Menja Ànimes",
+        "description": "All evolucionat. Roba cors. El poder augmenta quan es recupera PV.",
+        "tips": "Requereix: Pummarola."
+      },
+      "BORA": {
+        "name": "La Borra",
+        "description": "Aigua Santa evolucionada. Àreas danyines et segueixen i crèixen quan es mouen.",
+        "tips": "Requereix: Attractorb."
+      },
+      "SILF3": {
+        "name": "Vandalier",
+        "description": "Unió d'Ales Banús i Colomí."
+      },
+      "REVIVAL": {
+        "name": "Tiragisú",
+        "description": "Reviu una vegada amb 50% més salut."
+      },
+      "LOOP": {
+        "name": "Bucle Llamp",
+        "description": "Anell Elèctric evolucionat. Projectils xoquen dues vegades.",
+        "tips": "Requereix: Duplicador."
+      },
+      "CURSE": {
+        "name": "Skull O'Maniac",
+        "description": "Augmenta velocitat d'enemics, salut, quantitat, i freqüència en un 10%."
+      },
+      "CHERRY": {
+        "name": "Petard",
+        "description": "Llença un projectil que rebota. Explota, a vegades.",
+        "tips": "Millor amb: sort.",
+        "customDescValue": "%0% possibilitat d'explotar."
+      },
+      "SONG": {
+        "name": "Cançó de Manà",
+        "description": "Ataca verticalment, passa a través d'enemics.",
+        "tips": "Ignora: Quantitat, Velocitat."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Cançó de Manà evolucionada. Possiblement freni enemics.",
+        "tips": "Requereix: Skull O'Maniac"
+      },
+      "SIRE": {
+        "name": "Lluna Preciosa",
+        "description": "Pentagrama evolucionat. Genera gemmes extra i les recull totes.",
+        "tips": "Requereix: Corona."
+      },
+      "GUNS": {
+        "name": "Phiera Der Tuphello",
+        "description": "Dispara ràpidament en quatre direccions fixades.",
+        "tips": "Ignora: Durada."
+      },
+      "GUNS2": {
+        "name": "Eight The Sparrow",
+        "description": "Dispara ràpidament en quatre direccions fixades.",
+        "tips": "Ignora: Durada."
+      },
+      "GUNS3": {
+        "name": "Phieraggi",
+        "description": "Unió de Phiera Der Tuphello i Eight The Sparrow. Escala amb Resurreccions.",
+        "tips": "Requereix: Tiragisú."
+      },
+      "ROCHER": {
+        "name": "NO FUTURE",
+        "description": "Runa Làser evolucionada. Explota quan rebota i en represàlia.",
+        "tips": "Requereix: Armadura"
+      },
+      "CART2": {
+        "name": "Carréllo",
+        "description": "Llença un projectil que rebota. Nombre de rebots afectat per Quantitat.",
+        "tips": "Ignora: Durada."
+      },
+      "GATTI": {
+        "name": "Gatti Amari",
+        "description": "Invoca projectils capritxosos. Possiblement interactuïn amb objectes.",
+        "tips": "Millor amb: Sort, Pollastre Rostit."
+      },
+      "FLOWER": {
+        "name": "Escombrat Celeste",
+        "description": "Llença un projectil que rebota. Es recarga amb moviment.",
+        "tips": "Millor amb: Velocitat de Moviment.",
+        "customDescValue": "Els enemics derrotats poden deixar caure cors."
+      },
+      "TRAPANO": {
+        "name": "Pinyó Obscur",
+        "description": "Genera zones danyines quan hom es mou, danya quan hom para.",
+        "tips": "Millor amb: velocitat de moviment."
+      },
+      "TRAPANO2": {
+        "name": "Torner de Valquíria",
+        "description": "Pinyó Obscur evolucionat. Més gran, més llarg, més ràpid, més fort.",
+        "tips": "Requereix: Ales."
+      },
+      "STIGRANGATTI": {
+        "name": "Fam Maligna",
+        "description": "Gatti Amari evolucionat. Possiblement torni qualsevol cosa en or.",
+        "tips": "Requereix: Màscara de Pedra."
+      },
+      "SHROUD": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      },
+      "CORRIDOR": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      },
+      "GOLD": {
+        "name": "",
+        "description": ""
+      },
+      "SILVER": {
+        "name": "",
+        "description": ""
+      },
+      "LEFT": {
+        "name": "",
+        "description": ""
+      },
+      "RIGHT": {
+        "name": "",
+        "description": ""
+      },
+      "VENTO": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      },
+      "VENTO2": {
+        "name": "",
+        "description": ""
+      },
+      "PANDORA": {
+        "tips": "",
+        "description": "",
+        "customDescValue": "",
+        "customOverrideValue": "",
+        "name": ""
+      },
+      "ROBBA": {
+        "tips": "",
+        "description": "",
+        "name": ""
+      },
+      "TRIASSO1": {
+        "name": "",
+        "description": ""
+      },
+      "TRIASSO2": {
+        "name": "",
+        "description": ""
+      },
+      "TRIASSO3": {
+        "name": "",
+        "description": ""
+      },
+      "SILF_COUNTER": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      },
+      "SILF2_COUNTER": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      },
+      "GUNS_COUNTER": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      },
+      "GUNS2_COUNTER": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      },
+      "CANDYBOX": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      },
+      "VICTORY": {
+        "name": "",
+        "description": "",
+        "tips": "",
+        "customDescValue": ""
+      },
+      "SOLES": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      },
+      "JUBILEE": {
+        "name": "",
+        "description": "",
+        "tips": "",
+        "customDescValue": ""
+      },
+      "MISSPELL": {
+        "name": "",
+        "description": ""
+      },
+      "MISSPELL2": {
+        "description": "",
+        "tips": "",
+        "name": ""
+      },
+      "GATTI_COUNTER": {
+        "name": "",
+        "description": "",
+        "tips": ""
+      }
+    }
+  }
+}
