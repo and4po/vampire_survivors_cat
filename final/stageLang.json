@@ -60,7 +60,8 @@
                 "tips": "更多的关卡物品"
             },
             "STAGEX": {
-                "description": "等下, 你可以看到这个? 这不应该的……"
+                "description": "等下, 你可以看到这个? 这不应该的……",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "大教堂",
@@ -72,10 +73,23 @@
             },
             "MACHINE": {
                 "stageName": "福地",
-                "description": "通往我们世界边缘的道路。地板是熔岩。"
+                "description": "空间之间的空间。 某事的高潮， 还是仅仅是另一个开始？ 地板是熔岩。"
             },
             "MACHINE2": {
                 "stageName": "三重环"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "小桥流水",
+                "description": "两个对立的派别在这座小桥上突然停止了战斗。 毫无疑问， 这种停止的根源将变成无害的。"
+            },
+            "MOONSPELL": {
+                "stageName": "月咒山",
+                "description": "一个没落家族的发源地，  如今这里遍地都是妖怪和恶鬼。 这个世界没有太阳， 黑夜统治着一切。"
+            },
+            "BATCOUNTRY": {
+                "stageName": "蝙蝠国",
+                "description": "我们不能在这里停留。",
+                "tips": "随时间推移，敌人会越来越强大。"
             }
         }
     },
@@ -238,7 +252,8 @@
                 "tips": "Objets bonus"
             },
             "STAGEX": {
-                "description": "Attendez, vous pouvez voir ce niveau ? Quelque chose cloche..."
+                "description": "Attendez, vous pouvez voir ce niveau ? Quelque chose cloche...",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "Cappella Magna",
@@ -250,10 +265,23 @@
             },
             "MACHINE": {
                 "stageName": "M. eudaimoniaque",
-                "description": "Un chemin vers le bord de notre monde. Le sol est de la lave."
+                "description": "Un espace entre les espaces. L'aboutissement de quelque chose, ou simplement un autre commencement ? Le sol est en lave."
             },
             "MACHINE2": {
                 "stageName": "Les trois cercles"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "Petit pont",
+                "description": "Deux factions opposées ont brusquement cessé de se battre sur ce petit pont. Nul doute que la source de cet arrêt se révélera inoffensive."
+            },
+            "MOONSPELL": {
+                "stageName": "Pic Moonspell",
+                "description": "Le foyer ancestral d'un clan déchu, désormais infesté de yôkais et autres onis. La nuit triomphe dans ce monde sans soleil."
+            },
+            "BATCOUNTRY": {
+                "stageName": "Voie vampirique",
+                "description": "Chauve qui peut !",
+                "tips": "Les ennemis sont de plus en plus puissants."
             }
         }
     },
@@ -305,7 +333,8 @@
                 "tips": "Extra-Stage-Items"
             },
             "STAGEX": {
-                "description": "Moment, siehst du das auch? Das kann doch nicht stimmen ..."
+                "description": "Moment, siehst du das auch? Das kann doch nicht stimmen ...",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "Cappella Magna",
@@ -317,10 +346,23 @@
             },
             "MACHINE": {
                 "stageName": "Eudaimonia M.",
-                "description": "Ein Weg zum Rand unserer Welt. Der Boden ist Lava."
+                "description": "Ein Raum zwischen Räumen. Der Höhepunkt von etwas oder einfach ein weiterer Anfang? Der Boden ist Lava."
             },
             "MACHINE2": {
                 "stageName": "Die Drei Kreise"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "Winzige Brücke",
+                "description": "Zwei gegnerische Fraktionen haben ihre Kämpfe wegen dieser kleinen Brücke abrupt eingestellt. Die Ursache für diese Unterbrechung wird sich zweifellos als harmlos erweisen."
+            },
+            "MOONSPELL": {
+                "stageName": "Moonspellberg",
+                "description": "Angestammte Heimat einer gefallenen Sippe, nun von Yokai und Oni überrannt. In dieser Welt, in der die Sonne niemals scheint, siegt die Nacht."
+            },
+            "BATCOUNTRY": {
+                "stageName": "Fledermausland",
+                "description": "Wir können hier nicht anhalten.",
+                "tips": "Gegner werden mit der Zeit stärker."
             }
         }
     },
@@ -384,7 +426,8 @@
                 "tips": "Oggetti del livello aggiuntivi"
             },
             "STAGEX": {
-                "description": "Un momento, riesci a vederlo anche tu? C'è qualcosa che non va..."
+                "description": "Un momento, riesci a vederlo anche tu? C'è qualcosa che non va...",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "Cappella magna",
@@ -396,10 +439,23 @@
             },
             "MACHINE": {
                 "stageName": "M. Eudaimonia",
-                "description": "Un percorso verso il limite del nostro mondo."
+                "description": "Uno spazio tra gli spazi. Il culmine di qualcosa, o semplicemente un altro inizio? Il pavimento è lava."
             },
             "MACHINE2": {
                 "stageName": "I tre cerchi"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "Ponticello",
+                "description": "Due fazioni opposte hanno bruscamente smesso di combattere su questo piccolo ponte. Senza dubbio l'origine di questa cessazione si rivelerà innocua."
+            },
+            "MOONSPELL": {
+                "stageName": "Monte Moonspell",
+                "description": "L'ancestrale dimora di un clan decaduto ora invasa da yokai e oni. In questo mondo mai illuminato dal sole, la notte impera."
+            },
+            "BATCOUNTRY": {
+                "stageName": "Terra dei pipistrelli",
+                "description": "Non possiamo fermarci qui.",
+                "tips": "I nemici diventano gradualmente più forti."
             }
         }
     },
@@ -451,7 +507,8 @@
                 "tips": "ステージアイテムが増える"
             },
             "STAGEX": {
-                "description": "君にもこれが見えるのか? \nそれはまずい……"
+                "description": "君にもこれが見えるのか? \nそれはまずい……",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "マグナ礼拝堂",
@@ -463,10 +520,23 @@
             },
             "MACHINE": {
                 "stageName": "ユーダイモニアM",
-                "description": "私たちの世界の端への道。床は溶岩です。"
+                "description": "スペース間のスペース。 何かの集大成か、 それとも新たな始まりか?床は溶岩です。"
             },
             "MACHINE2": {
                 "stageName": "3つの輪"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "小さな橋",
+                "description": "この小さな橋の上で、 二つの派閥が突然争いを止めたのだ。 その原因はきっと無害なものだろう。"
+            },
+            "MOONSPELL": {
+                "stageName": "ムーンスペル山",
+                "description": "没落した一族の土地は今、 妖怪や鬼があふれている。 夜だけが延々と続くこの世界では、 陽の差す余地さえない。"
+            },
+            "BATCOUNTRY": {
+                "stageName": "バットカントリー",
+                "description": "ここでは止まれない。",
+                "tips": "敵は時間経過とともに強くなる。"
             }
         }
     },
@@ -518,7 +588,8 @@
                 "tips": "많은 마법 유물"
             },
             "STAGEX": {
-                "description": "잠깐 이것도 보인다고? 뭔가 잘못됐어..."
+                "description": "잠깐 이것도 보인다고? 뭔가 잘못됐어...",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "마그나 예배당",
@@ -530,10 +601,23 @@
             },
             "MACHINE": {
                 "stageName": "에우다이모니아 M.",
-                "description": "우리 세상의 가장자리로가는 길. 바닥은 용암입니다."
+                "description": "공간 사이의 공간.  무언가의 절정인가,  아니면 단순히 또 다른 시작인가? 바닥은 용암입니다."
             },
             "MACHINE2": {
                 "stageName": "3개의 원"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "작은 다리",
+                "description": "두 개의 반대 진영이 이 작은 다리를 둘러싼 싸움을 갑자기 중단했습니다. 의심할 여지 없이 이 중지의 원인은 무해한 것으로 판명될 것입니다."
+            },
+            "MOONSPELL": {
+                "stageName": "문스펠산",
+                "description": "몰락한 일족의 선조가 살던 고향으로, 이제 요괴와 오니에게 점령당했습니다. 태양이 빛나지 않는 이 세계에서는 밤이 승리합니다."
+            },
+            "BATCOUNTRY": {
+                "stageName": "박쥐 나라",
+                "description": "우리는 여기서 멈출 수 없습니다.",
+                "tips": "적은 시간이 지남에 따라 더 강해집니다."
             }
         }
     },
@@ -591,7 +675,8 @@
                 "tips": "Dodatkowe przedmioty etapu"
             },
             "STAGEX": {
-                "description": "Poczekaj, też to widzisz? Tak nie powinno być…"
+                "description": "Poczekaj, też to widzisz? Tak nie powinno być…",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "Cappella Magna",
@@ -603,10 +688,23 @@
             },
             "MACHINE": {
                 "stageName": "Eudajmonia M.",
-                "description": "Ścieżka do krawędzi naszego świata. Podłoga to lawa."
+                "description": "Przestrzeń między spacjami. Kulminacja czegoś, czy po prostu kolejny początek? Podłoga to lawa."
             },
             "MACHINE2": {
                 "stageName": "Trzy kręgi"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "Malutki mostek",
+                "description": "Dwie przeciwstawne frakcje nagle przestały walczyć o ten mały mostek. Bez wątpienia źródło tego zaprzestania okaże się niegroźne."
+            },
+            "MOONSPELL": {
+                "stageName": "Mount Moonspell",
+                "description": "Rodzinny dom upadłego klanu, który teraz opanowały yokai i oni. Noc króluje w tym świecie, do którego słońce nie dochodzi."
+            },
+            "BATCOUNTRY": {
+                "stageName": "Kraina nietoperzy",
+                "description": "Nie możemy się tu zatrzymywać.",
+                "tips": "Wrogowie stają się z czasem silniejsi."
             }
         }
     },
@@ -664,7 +762,8 @@
                 "tips": "Itens extras de fases"
             },
             "STAGEX": {
-                "description": "Espera, você também tá vendo isso? Tem alguma coisa errada..."
+                "description": "Espera, você também tá vendo isso? Tem alguma coisa errada...",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "Cappella Magna",
@@ -676,10 +775,23 @@
             },
             "MACHINE": {
                 "stageName": "M. Eudaimonia",
-                "description": "Um caminho para a borda do nosso mundo. O chão é lava."
+                "description": "Um espaço entre espaços. A culminação de algo, ou simplesmente outro começo? O chão é lava."
             },
             "MACHINE2": {
                 "stageName": "Os Três Círculos"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "Pequena ponte",
+                "description": "Duas facções opostas pararam abruptamente de lutar por esta pequena ponte. Sem dúvida, a fonte desta parada se revelará inofensiva."
+            },
+            "MOONSPELL": {
+                "stageName": "Monte Moonspell",
+                "description": "Lar ancestral de um clã extinto, agora infestado de yokai e oni. Neste mundo, onde o sol não brilha, a noite é vitoriosa."
+            },
+            "BATCOUNTRY": {
+                "stageName": "País Morcego",
+                "description": "Não podemos parar aqui.",
+                "tips": "Os inimigos ficam mais fortes com o tempo."
             }
         }
     },
@@ -737,7 +849,8 @@
                 "tips": "Дополнительные предметы этапа"
             },
             "STAGEX": {
-                "description": "Подожди, ты тоже это видишь? Это неправильно..."
+                "description": "Подожди, ты тоже это видишь? Это неправильно...",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "Капелла Магна",
@@ -749,10 +862,23 @@
             },
             "MACHINE": {
                 "stageName": "Эудамония М.",
-                "description": "Путь к краю нашего мира. Пол лава."
+                "description": "Пространство между пространствами. Кульминация чего-то или просто еще одно начало? Пол - лава."
             },
             "MACHINE2": {
                 "stageName": "Три круга"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "Крошечный мост",
+                "description": "Две противоборствующие группировки внезапно прекратили борьбу из-за этого маленького моста. Несомненно, источник этого прекращения окажется безобидным."
+            },
+            "MOONSPELL": {
+                "stageName": "Гора Луночар",
+                "description": "Фамильное гнездо павшего клана, которое теперь кишит демонами-ёкаями и они. В этом мире там, куда не доходят лучи солнца, правит вечная ночь."
+            },
+            "BATCOUNTRY": {
+                "stageName": "Страна нетопырей",
+                "description": "Останавливаться нельзя.",
+                "tips": "Враги со временем становятся сильнее."
             }
         }
     },
@@ -804,7 +930,8 @@
                 "tips": "Objetos de fase adicionales"
             },
             "STAGEX": {
-                "description": "Espera, ¿tú también puedes ver esto? Es imposible..."
+                "description": "Espera, ¿tú también puedes ver esto? Es imposible...",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "Cappella Magna",
@@ -816,10 +943,23 @@
             },
             "MACHINE": {
                 "stageName": "M. de eudemonía",
-                "description": "Un camino hacia el borde de nuestro mundo. El piso es lava."
+                "description": "Un espacio entre espacios. ¿La culminación de algo, o simplemente otro comienzo? El suelo es de lava."
             },
             "MACHINE2": {
                 "stageName": "Los tres círculos"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "Pequeño puente",
+                "description": "Dos facciones opuestas dejaron de luchar abruptamente por este pequeño puente. Sin duda, el origen de este cese resultará ser inofensivo."
+            },
+            "MOONSPELL": {
+                "stageName": "Monte Moonspell",
+                "description": "Hogar ancestral de una dinastía derrocada que ahora está infestado de yōkai y oni. En este mundo que jamás ve el sol, la noche reina victoriosa."
+            },
+            "BATCOUNTRY": {
+                "stageName": "Murcilandia",
+                "description": "No podemos parar aquí.",
+                "tips": "Los enemigos se vuelven más fuertes gradualmente."
             }
         }
     },
@@ -889,7 +1029,8 @@
                 "tips": "Bölümdeki ekstra eşyalar"
             },
             "STAGEX": {
-                "description": "Dur, sen de mi bunu görüyorsun? Bir terslik var…"
+                "description": "Dur, sen de mi bunu görüyorsun? Bir terslik var…",
+                "stageName": "Holy Forbidden"
             },
             "CHAPEL": {
                 "stageName": "Cappella Magna",
@@ -901,10 +1042,23 @@
             },
             "MACHINE": {
                 "stageName": "Eudaimonia M.",
-                "description": "Dünyamızın kenarına giden bir yol. Zemin lav."
+                "description": "Boşluklar arasında bir boşluk. Bir şeyin doruk noktası mı yoksa sadece başka bir başlangıç ​​mı? Zemin lav."
             },
             "MACHINE2": {
                 "stageName": "Üç Çemberler"
+            },
+            "TOWERBRIDGE": {
+                "stageName": "Küçük köprü",
+                "description": "İki karşıt grup bu küçük köprü üzerinde savaşmayı aniden bıraktı. Hiç şüphe yok ki bu duraklamanın kaynağı zararsız çıkacaktır."
+            },
+            "MOONSPELL": {
+                "stageName": "Moonspell Dağı",
+                "description": "Yitik bir klanın eski yuvası, artık Yokai ve Oni tarafından istila edilmiş durumda. Güneşin parlamadığı bu dünyada, galip gelen gecedir."
+            },
+            "BATCOUNTRY": {
+                "stageName": "Yarasa Diyarı",
+                "description": "Burada duramayız.",
+                "tips": "Düşmanlar zamanla güçlenir."
             }
         }
     },
@@ -927,77 +1081,77 @@
         "translations": {
             "FOREST": {
                 "stageName": "Bosc Dement",
-                "description": "Una vegada un santuari opulent, ara un vessador de maldat. Es diu que un vampir és la font d'aquesta maldat, però només podem trobar caos i pollastre rostit.",
+                "description": "Un dia va ser un santuari opulent, avui és un vessador de maldat. Es diu que un vampir és la font d'aquesta maldat, però només podem trobar caos i pollastre rostit.",
                 "hyperTips": "50% Bonus d'or"
             },
             "LIBRARY": {
                 "stageName": "Biblioteca Encastada",
-                "description": "L'Escriba Fútil va ser maleït amb saber tot i entendre res. La seva biblioteca infinita podria donar-nos inspiració... o perdició. Una màscara de pedra xiuxiueja sens fi allà dins.",
+                "description": "L'Escriba Fútil va ser maleït amb el do de saber-ho tot i no entendre res. La seva biblioteca infinita podria donar-nos inspiració... o perdició. Hi ha una màscara de pedra que xiuxiueja sens fi allà dins.",
                 "hyperTips": "50% Bonus d'or\n10% Bonus de sort"
             },
             "GREENACRES": {
                 "stageName": "Acres Verds",
-                "description": "El destí canvia cada minut a un pla on els mortals només poden traspassar. Quins premis esperen a aquells que desafien les regles? Tresor? Glòria? Pollastre?",
-                "tips": "Onades enemigues aleatories als escenaris normals",
+                "description": "El destí canvia cada minut en un pla on els mortals només poden traspassar. Quines recompenses trobaran aquells que desafien les regles? Tresosr? Glòria? Pollastre?",
+                "tips": "Onades enemigues aleatòries als escenaris normals",
                 "hyperTips": "50% Bonus d'or\n10% Bonus de sort",
                 "stagenNumber": "Repte"
             },
             "WAREHOUSE": {
-                "stageName": "Planta de Làctis",
-                "description": "Ell lloc d'origen de la Màgia Làctia es sacseja amb caos. Aquí, no només la sang qualla. Un secret espera a l'heroi suficientment valent per fer caure aquesta fàbrica.",
+                "stageName": "Planta de Lactis",
+                "description": "Ell lloc d'origen de la Màgia Làctia se sacseja amb caos. Aquí, no només la sang qualla. Un mapa secret espera l'heroi suficientment valent per fer caure aquesta fàbrica.",
                 "hyperTips": "50% Bonus d'or\n10% Bonus de sort"
             },
             "MOLISE": {
                 "stageName": "Il Molise",
-                "description": "Les flors sembla que canten aquí, cridant a herois cansats. Un lloc tan verge és real? Això importa? Hi ha pollastre rostit?",
-                "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies' health +60%",
+                "description": "Aquí sembla que les flors canten, criden herois cansats. Un lloc tan verge pot ser real? Té cap importància, això? Hi ha pollastre rostit?",
+                "hyperTips": "50% Bonus d'or\n10% Bonus de sort\n+60% Salut dels enemics ",
                 "tips": "Els enemics no es mouen"
             },
             "TOWER": {
                 "stageName": "Torre Gallo",
-                "description": "Un edifici de ciència i encanteris on l'horror es va fer manifest en nom del progrés. Els seus artefactes i experiments podrien portar-nos cap al que desitgem."
+                "description": "Un edifici de ciència i encanteris on l'horror es va fer manifest en nom del progrés. Els seus artefactes i experiments podrien portar-nos cap allò que desitgem."
             },
             "BONEZONE": {
                 "stageName": "La Zona d'Ossos",
-                "description": "Una carnisseria calcificada espera on els morts van a viure. Si parlem els vespres sacrílegs obrirem el camí, però hauríem d'anar a casa? No hem cavat massa profund?",
+                "description": "Hi ha una carnisseria calcificada allà on els morts van a viure. Si parlem els vespres profans obrirem el camí, però no hauríem d'anar a casa? No hem cavat massa profund?",
                 "tips": "No cauen objectes. Els enemics es fan més forts amb el temps."
             },
             "SINKING": {
                 "stageName": "Moongolow",
-                "description": "La llegenda parla d'una ciutat empassada per el mar sota la mirada d'una lluna plena indiferent. Llar de misteris desconeguts, hem de veure què resideix entre els seus murs.",
+                "description": "La llegenda parla d'una ciutat engolida pel mar sota la mirada d'una lluna plena indiferent. Llar de misteris desconeguts, hem de veure què hi ha entre els seus murs.",
                 "tips": "Objectes d'escenari extra"
             },
             "STAGEX": {
-                "description": "Espera, també pots veure això? Això no està bé...",
-                "stageName": ""
+                "description": "Un moment, també ho pots veure, això? Això no està bé...",
+                "stageName": "Sagrat Prohibit"
             },
             "CHAPEL": {
                 "stageName": "Cappella Magna",
-                "description": "Arrogants eren aquells que regnaven des de tan alt i caigueren tan baix. Aquest nexe de puresa esmicolada és el lloc perfecte per trobar un vampir. Probablement."
+                "description": "Arrogants eren aquells que regnaven des de tan amunt i caigueren tan baix. Aquest nexe de puresa esmicolada és el lloc perfecte per trobar un vampir. Probablement."
             },
             "RASH": {
                 "stageName": "Boss Rash",
-                "description": "Els monstres volen entreteniment, i si guanyem el seu joc, el botí és nostre per prendre. Deixa'ns enfrontar aquests assets reciclats i fer el que millor fem... sobreviure!"
+                "description": "Els monstres volen entreteniment, i si guanyem el seu joc, el botí és nostre. Deixa'ns enfrontar aquests assets reciclats i fer el que millor sabem fer... sobreviure!"
             },
             "MACHINE": {
                 "stageName": "Eudaimonia M.",
-                "description": ""
+                "description": "Un espai entre espais. La culminació de quelcom, o només un altre començament? Ja et tinc, ara et toca."
             },
             "MACHINE2": {
                 "stageName": "Els Tres Cicles"
             },
             "TOWERBRIDGE": {
-                "stageName": "",
-                "description": ""
+                "stageName": "Pont petit",
+                "description": "Dues faccions oposades van parar de lluitar abruptament sobre aquest pont. Sens dubte, la font d'aquest cessament serà inofensiva."
             },
             "MOONSPELL": {
-                "stageName": "",
-                "description": ""
+                "stageName": "Mont Encíslunar",
+                "description": "Llar ancestral d'un clan caigut, ara abarrotat per yokai i oni. En aquest món on el sol no brilla, la nit és victoriosa."
             },
             "BATCOUNTRY": {
-                "stageName": "",
-                "description": "",
-                "tips": ""
+                "stageName": "País Ratpenat",
+                "description": "No ens podem aturar aquí.",
+                "tips": "Els enemics es tornen més forts amb el temps."
             }
         }
     }

@@ -1249,7 +1249,7 @@
         "translations": {
             "0": {
                 "name": "MataJocs",
-                "description": "Deté els guanys de XP. Les Gemmes d'Experiència es tornen en projectils explosius. Tots els Cofres de Tresor contenen al menys 3 objectes."
+                "description": "Detén els guanys de XP. Les Gemmes d'Experiència es converteixen en projectils explosius. Tots els Cofres de Tresor contenen al menys 3 objectes."
             },
             "1": {
                 "name": "I - Gemini",
@@ -1261,23 +1261,23 @@
             },
             "3": {
                 "name": "III - Princesa Tràgica",
-                "description": "El temps de refredat de les armes llistades es redueix amb moviment."
+                "description": "El temps de recàrrega d'armes llistades es redueix amb moviment."
             },
             "4": {
                 "name": "IV - Despert",
-                "description": "[Mod]Dona +3 Resurreccions. Consumir una resurrecció dona +10% Vida Màxima, +1 Armadura, i +5% Força, Duració, i Velocitat."
+                "description": "Dona +3 Resurreccions. Consumir una resurrecció dona +10% Vida Màxima, +1 Armadura, i +5% Força, Duració, i Velocitat."
             },
             "5": {
                 "name": "V - Caos a la Nit Obscura",
-                "description": "[Mod]La Velocitat dels projectils canvia contínuament entre -50% i +200% per 10 segons."
+                "description": "La Velocitat dels projectils canvia contínuament entre -50% i +200% durant 10 segons."
             },
             "6": {
                 "name": "VI - Sarabanda de Curació",
-                "description": "Curació és doblada. Recuperació de PV danya enemics pròxims amb el mateix valor."
+                "description": "La Curació és doblada. Recuperar PV danya enemics propers amb el mateix valor."
             },
             "7": {
                 "name": "VII - Voluntat Ferro Blau",
-                "description": "Els projectils de les armes listades guanyen fins a 3 rebots i possiblement passin a través d'enemics i murs."
+                "description": "Els projectils de les armes llistades guanyen fins a 3 rebots i és possible que passin a través d'enemics i murs."
             },
             "8": {
                 "name": "VIII - Arbreda Dement",
@@ -1285,7 +1285,7 @@
             },
             "9": {
                 "name": "IX - Llinatge Diví",
-                "description": "L'Armadura també afecta el dany de les armes llistades i reflecteix el dany enemic. El personatge guanya bonificació de dany depenent de la Salut mancant. Derrotar enemics amb dany de represalia dona +0,5 de Salut Max."
+                "description": "L'Armadura també afecta el dany de les armes llistades i reflecteix el dany enemic. El personatge guanya bonificació de dany depenent de la Salut mancant. Derrotar enemics amb dany de represàlia dona +0,5 de Vida Max."
             },
             "10": {
                 "name": "X - Principi",
@@ -1293,15 +1293,15 @@
             },
             "11": {
                 "name": "XI - Vals de les Perles",
-                "description": "Els projectils de les armes listades guanyen fins a 3 rebots."
+                "description": "Els projectils de les armes llistades guanyen fins a 3 rebots."
             },
             "12": {
                 "name": "XII - Fora de Límits",
-                "description": "Congelar enemics genera explosions. Orologions són més fàcils de trobar."
+                "description": "Congelar enemics genera explosions. Els orologions són més fàcils de trobar."
             },
             "13": {
                 "name": "XIII - Estació Maligna",
-                "description": "Creixement, Sort, Avarícia, i Maledicció total son doblades a intervals fixats. El personatge comença guanyant +1% de Creixement, Sort, Avarícia, i Maledicció cada 2 nivells."
+                "description": "Creixement, Sort, Avarícia, i Maledicció total són doblades a intervals fixats. El personatge comença guanyant +1% de Creixement, Sort, Avarícia, i Maledicció cada 2 nivells."
             },
             "14": {
                 "name": "XIV - Presó de Vidre",
@@ -1313,27 +1313,27 @@
             },
             "16": {
                 "name": "XVI - Incisió",
-                "description": "Permet cops crítics per les armes listades. Dobla el dany crític total."
+                "description": "Permet cops crítics per les armes llistades. Dobla el dany crític total."
             },
             "17": {
-                "name": "XVII - Quadre Perdut i Trovat",
-                "description": "[Mod]Duració total canvia contínuament entre -50% i +200% per 10 segons."
+                "name": "XVII - Quadre Perdut i Trobat",
+                "description": "Duració total canvia contínuament entre -50% i +200% durant 10 segons."
             },
             "18": {
                 "name": "XVIII - Boogaloo d'Il·lusions",
-                "description": "[Mod]Area total canvia contínuament entre -25% i +50% per 10 segons."
+                "description": "L'àrea total canvia contínuament entre -25% i +50% durant 10 segons."
             },
             "19": {
                 "name": "XIX - Cor de Foc",
-                "description": "Els projectils de les armes llistades exploten al impactar. Les fonts de llum exploten. El personatge explota quan és danyat."
+                "description": "Els projectils de les armes llistades exploten en impactar. Les fonts de llum exploten. El personatge explota quan és danyat."
             },
             "20": {
                 "name": "XX - Vell Santuari Silenciós",
-                "description": "Dona +3 de Segón Llançament, Omissió, i Desaparició. Dona +20% de Potència i -8% de Recàrrega per cada casella d'arma activa buida."
+                "description": "Dona +3 de Segon Llançament, Omissió i Desaparició. Dona +20% de Potència i -8% de Recàrrega per cada casella d'arma activa buida."
             },
             "21": {
                 "name": "XXI - Astronomia de Sang",
-                "description": "Les armes llistades també emeten zones danyines afectades per Quantitat i Imant. Enemics dins el rang d'Imant reben dany basat en Quantitat."
+                "description": "Les armes llistades també emeten zones danyines afectades per Quantitat i Imant. Els enemics dins el rang d'Imant reben dany basat en Quantitat."
             }
         }
     }

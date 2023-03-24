@@ -71,7 +71,7 @@
             },
             "GREED": {
                 "name": "贪欲",
-                "description": "每强化一层, 获得的金币+10%, 最多+50%。"
+                "description": "每强化一层， 获得的金币+10%， 最多+50%。"
             },
             "SHIELD": {
                 "name": "护盾",
@@ -83,11 +83,11 @@
             },
             "REROLL": {
                 "name": "重选",
-                "description": "每强化一层, 你在升级时将多一次重选宝物的机会。"
+                "description": "每强化一层， 你在升级时将多两次重选宝物的机会。"
             },
             "SKIP": {
                 "name": "跳过",
-                "description": "每强化一层, 你在升级时将多两次跳过选择宝物的机会, 跳过可获得经验值。"
+                "description": "每强化一层， 你在升级时将多两次跳过选择宝物的机会， 跳过可获得经验值。"
             },
             "CURSE": {
                 "name": "诅咒",
@@ -95,11 +95,19 @@
             },
             "BANISH": {
                 "name": "排除",
-                "description": "每强化一层, 你在升级时将多一次排除指定宝物的机会, 被排除的宝物本局不再出现。"
+                "description": "每强化一层， 你在升级时将多两次排除指定宝物的机会， 被排除的宝物本局不再出现。"
             },
             "PANDORA": {
                 "name": "全能",
                 "description": "每强化一层, 力量, 飞射速度, 持续时间和攻击范围+2%, 最多+10%。"
+            },
+            "SEAL": {
+                "name": "封印",
+                "description": "允许你在升级时排除一个物品， 或排除光源中的掉落物； 需在藏品菜单中使用。"
+            },
+            "CHARM": {
+                "name": "魅惑",
+                "description": "每强化一层，敌人的刷新数量+20，最多+100。"
             }
         }
     },
@@ -303,7 +311,7 @@
             },
             "REROLL": {
                 "name": "Caprice",
-                "description": "Une fois par rang, permet d'obtenir des choix différents lors du passage au niveau supérieur."
+                "description": "Deux fois par rang, permet d'obtenir des choix différents lors du passage au niveau supérieur."
             },
             "SKIP": {
                 "name": "Snobisme",
@@ -315,11 +323,19 @@
             },
             "BANISH": {
                 "name": "Répulsion",
-                "description": "Une fois par rang, permet de retirer un objet des choix du passage au niveau supérieur pour toute la partie."
+                "description": "Deux fois par rang, permet de retirer un objet des choix du passage au niveau supérieur pour toute la partie."
             },
             "PANDORA": {
                 "name": "Omni",
                 "description": "Augmente la puissance, la vitesse des projectiles, la durée et la portée de 2 % par rang (+10 % max)."
+            },
+            "SEAL": {
+                "name": "Exclusion",
+                "description": "Permet de bannir un objet des choix du passage de niveau ou un boost issu des sources de lumière depuis le menu COLLECTION."
+            },
+            "CHARM": {
+                "name": "Charme",
+                "description": "Augmente la quantité d'ennemis de 20 par rang (+100 max)."
             }
         }
     },
@@ -394,7 +410,7 @@
             },
             "REROLL": {
                 "name": "Neuwahl",
-                "description": "Einmal pro Rang sind andere Wahlmöglichkeiten erlaubt beim Levelaufstieg."
+                "description": "Gewährt zweimal pro Rang andere Wahlmöglichkeiten beim Levelaufstieg."
             },
             "SKIP": {
                 "name": "Überspringen",
@@ -406,11 +422,19 @@
             },
             "BANISH": {
                 "name": "Verbannen",
-                "description": "Einmal pro Rang ist es möglich, bis zum Ende des Laufs beim Levelaufstieg ein Item aus den Wahlmöglichkeiten zu entfernen."
+                "description": "Zweimal pro Rang ist es möglich, bis zum Ende des Laufs beim Levelaufstieg ein Item aus den Wahlmöglichkeiten zu entfernen."
             },
             "PANDORA": {
                 "name": "Omni",
                 "description": "Erhöht Macht, Geschossschnelligkeit, Dauer und Bereich um 2% pro Rang (max. +10%)."
+            },
+            "SEAL": {
+                "name": "Siegel",
+                "description": "Ermöglicht das Verbannen eines Items aus der Levelaufstieg-Auswahl oder eines Pickup aus Lichtquellen. Im Menü SAMMLUNG verwenden."
+            },
+            "CHARM": {
+                "name": "Charme",
+                "description": "Es erscheinen 20 weitere Gegner pro Rang (max. +100)."
             }
         }
     },
@@ -497,7 +521,7 @@
             },
             "REROLL": {
                 "name": "Risorteggio",
-                "description": "Una volta per grado, ti consente di ottenere scelte differenti quando sali di livello."
+                "description": "Due volte per grado, ti consente di ottenere scelte differenti quando sali di livello."
             },
             "SKIP": {
                 "name": "Esenzione",
@@ -509,11 +533,19 @@
             },
             "BANISH": {
                 "name": "Esclusione",
-                "description": "Una volta per grado, ti consente di rimuovere un oggetto dalle scelte del passaggio al nuovo livello, per il resto del turno."
+                "description": "Due volte per grado, ti consente di rimuovere un oggetto dalle scelte del passaggio al nuovo livello, per il resto del turno."
             },
             "PANDORA": {
                 "name": "Omni",
                 "description": "Aumenta Potenza, Velocità dei proiettili, Durata e Area del 2% per grado (max +10%)."
+            },
+            "SEAL": {
+                "name": "Sigillo",
+                "description": "Permette di Escludere un oggetto dalle scelte del passaggio al nuovo livello o un collezionabile dalle fonti di luce. Puoi usarlo nel menu COLLEZIONE."
+            },
+            "CHARM": {
+                "name": "Fascino",
+                "description": "Aumenta i nemici generati di 20 per grado (+100 al massimo)."
             }
         }
     },
@@ -576,7 +608,7 @@
             },
             "GREED": {
                 "name": "欲深さ",
-                "description": "各ランクにつき金貨獲得量が10%増加 (最大+50%) 。"
+                "description": "各ランクにつき金貨獲得量が10%増加 （最大+50%）。"
             },
             "SHIELD": {
                 "name": "シールド",
@@ -588,11 +620,11 @@
             },
             "REROLL": {
                 "name": "リロール",
-                "description": "1ランクにつき1回, レベルアップ時のアイテムリストを更新できる。"
+                "description": "1ランクにつき2回、 レベルアップ時に異なる選択肢を獲得する。"
             },
             "SKIP": {
                 "name": "スキップ",
-                "description": "1ランクにつき2回, レベルアップの選択肢をスキップする代わりに, 経験値が得られる。"
+                "description": "1ランクにつき2回、 レベルアップの選択肢をスキップする代わりに、 経験値が得られる。"
             },
             "CURSE": {
                 "name": "呪い",
@@ -600,11 +632,19 @@
             },
             "BANISH": {
                 "name": "選択肢消去",
-                "description": "ランクごとに2回使用することが\nでき、使用するとレベルアップ\nの選択肢から項目を削除できる。"
+                "description": "ランクごとに2回、 ランの残り時間、 レベルアップ選択肢からアイテム1個を削除できる。"
             },
             "PANDORA": {
                 "name": "万能",
                 "description": "1ランクにつき攻撃力, 弾速, 効果時間, 攻撃範囲を2%ずつ増加させる (最大+10%) 。"
+            },
+            "SEAL": {
+                "name": "シール",
+                "description": "レベルアップ選択肢からアイテムを削除できる、 または明かりからピックアップが得られる。 コレクションメニューで使う。"
+            },
+            "CHARM": {
+                "name": "チャーム",
+                "description": "敵の出現数が1ランクにつき20増加する（最大+100）。"
             }
         }
     },
@@ -679,7 +719,7 @@
             },
             "REROLL": {
                 "name": "새로고침",
-                "description": "랭크당 한 번, 레벨업 시 다른 선택을 할 수 있습니다."
+                "description": "랭크당 두 번, 레벨업 시 다른 선택을 할 수 있습니다."
             },
             "SKIP": {
                 "name": "건너뛰기",
@@ -691,11 +731,19 @@
             },
             "BANISH": {
                 "name": "지우기",
-                "description": "랭크당 한 번, 레벨업 선택지에서 게임의 나머지 부분을 위한 아이템을 제거할 수 있습니다."
+                "description": "랭크당 두 번, 레벨업 선택지에서 게임의 나머지 부분을 위한 아이템을 제거할 수 있습니다."
             },
             "PANDORA": {
                 "name": "전능",
                 "description": "랭크당 피해량, 투사체 속도, 지속시간, 공격 범위가 2% 증가합니다(최대 10%)."
+            },
+            "SEAL": {
+                "name": "봉인",
+                "description": "레벨업 선택지에서 아이템 하나를 지우거나, 광원에서 획득합니다. 컬렉션 메뉴에서 사용하세요."
+            },
+            "CHARM": {
+                "name": "매력",
+                "description": "적의 스폰 수량을 랭크당 20씩 증가시킵니다(최대 +100)."
             }
         }
     },
@@ -776,7 +824,7 @@
             },
             "REROLL": {
                 "name": "Zmiana",
-                "description": "Raz na rangę umożliwia zmianę wyboru przy awansie na wyższy poziom."
+                "description": "Dwa razy na rangę umożliwia zmianę opcji do wyboru przy awansie na wyższy poziom."
             },
             "SKIP": {
                 "name": "Pominięcie",
@@ -788,11 +836,19 @@
             },
             "BANISH": {
                 "name": "Odrzucenie",
-                "description": "Raz na rangę umożliwia usunięcie jednego z przedmiotów dostępnych do wyboru przy awansie na wyższy poziom ze skutkiem do końca rozgrywki."
+                "description": "Dwa razy na rangę umożliwia usunięcie z puli jednego z przedmiotów dostępnych do wyboru przy awansie na wyższy poziom. Obowiązuje do końca tej rozgrywki."
             },
             "PANDORA": {
                 "name": "Omni",
                 "description": "Zwiększa Moc, Prędkość pocisków, Czas trwania i Obszar o 2% na rangę (maks +10%)."
+            },
+            "SEAL": {
+                "name": "Zapieczętowanie",
+                "description": "Pozwala na odrzucenie przedmiotu z puli przyznawanej przy awansie na wyższy poziom lub łupu ze źródeł światła. Użyj w menu KOLEKCJA."
+            },
+            "CHARM": {
+                "name": "Urok",
+                "description": "Zwiększa liczbę pojawiających się wrogów o 20 na rangę (maks. +100)."
             }
         }
     },
@@ -873,7 +929,7 @@
             },
             "REROLL": {
                 "name": "Rolar novamente",
-                "description": "Uma vez por classe, permite que você obtenha escolhas diferentes ao subir de nível."
+                "description": "Duas vezes por classe, permite que você obtenha escolhas diferentes ao subir de nível."
             },
             "SKIP": {
                 "name": "Adiar",
@@ -885,11 +941,19 @@
             },
             "BANISH": {
                 "name": "Banir",
-                "description": "Uma vez por classe, permite que você remova um item das escolhas ao subir de nível pelo resto da partida."
+                "description": "Duas vezes por classe, permite que você remova, pelo resto da partida, um item das escolhas ao subir de nível."
             },
             "PANDORA": {
                 "name": "Omni",
                 "description": "Aumenta Poder, Velocidade de Projéteis, Duração e Área em 2% por classe (máx. de +10%)."
+            },
+            "SEAL": {
+                "name": "Selar",
+                "description": "Permite Banir um item das escolhas ao subir de nível ou um coletável das fontes de luz. Para uso no menu COLEÇÃO."
+            },
+            "CHARM": {
+                "name": "Charme",
+                "description": "Aumenta a quantidade de inimigos que surgem em 20 por classe (máx. de +100)."
             }
         }
     },
@@ -970,7 +1034,7 @@
             },
             "REROLL": {
                 "name": "Повтор",
-                "description": "Один раз за ранг дает выбрать из других вариантов при повышении уровня."
+                "description": "Два раза за ранг дает выбрать из других вариантов при повышении уровня."
             },
             "SKIP": {
                 "name": "Пропуск",
@@ -982,11 +1046,19 @@
             },
             "BANISH": {
                 "name": "Изгнание",
-                "description": "Один раз за ранг позволяет удалить предмет из предложенных при повышении уровня до конца забега."
+                "description": "Два раза за ранг позволяет удалить предмет из предложенных при повышении уровня до конца забега."
             },
             "PANDORA": {
                 "name": "Омни",
                 "description": "Увеличивает силу, скорость, продолжительность и область на 2% за ранг (макс. +10%)."
+            },
+            "SEAL": {
+                "name": "Исключение",
+                "description": "Позволяет убрать предмет из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
+            },
+            "CHARM": {
+                "name": "Очарование",
+                "description": "Увеличивает количество появляющихся врагов на 20 за каждый ранг (макс. +100)."
             }
         }
     },
@@ -1061,7 +1133,7 @@
             },
             "REROLL": {
                 "name": "Cambiar",
-                "description": "Te permite obtener opciones diferentes al subir de nivel una vez por grado."
+                "description": "Te permite obtener opciones diferentes al subir de nivel dos veces por grado."
             },
             "SKIP": {
                 "name": "Saltar",
@@ -1073,11 +1145,19 @@
             },
             "BANISH": {
                 "name": "Eliminar",
-                "description": "Te permite escoger un objeto de la selección al subir de nivel y eliminarlo durante el resto de la partida una vez por grado."
+                "description": "Te permite escoger un objeto de la selección al subir de nivel y eliminarlo durante el resto de la partida dos veces por grado."
             },
             "PANDORA": {
                 "name": "Omni",
                 "description": "Aumenta el poder, la vel. de proyectil, la duración y el área de efecto un 2 % por grado (máx.: +10 %)."
+            },
+            "SEAL": {
+                "name": "Sellar",
+                "description": "Te permite eliminar un objeto de la selección al subir de nivel o un objeto de las fuentes de luz. Se usa en el menú COLECCIÓN."
+            },
+            "CHARM": {
+                "name": "Encanto",
+                "description": "Aumenta en 20 la cantidad de enemigos que aparecen por grado (máx.: +100)."
             }
         }
     },
@@ -1170,7 +1250,7 @@
             },
             "REROLL": {
                 "name": "Tekrar Atma",
-                "description": "Rütbe başına bir kez, level atlarken farklı seçenekler elde etmenizi sağlar."
+                "description": "Rütbe başına iki kez, seviye atlarken farklı seçenekler elde etmenizi sağlar."
             },
             "SKIP": {
                 "name": "Atla",
@@ -1182,11 +1262,19 @@
             },
             "BANISH": {
                 "name": "Çıkar",
-                "description": "Rütbe başına bir kez, oyunun geri kalanı için level atlama seçeneklerinden bir ögeyi kaldırmanıza olanak tanır."
+                "description": "Rütbe başına iki kez, oyunun geri kalanı için seviye atlama seçeneklerinden bir eşyayı kaldırmanıza olanak tanır."
             },
             "PANDORA": {
                 "name": "Omni",
                 "description": "Kuvvet, Fırlatılabilir Hızı, Tesir Süresi ve Alanı rütbe başına %2 artırır (en fazla +%10)."
+            },
+            "SEAL": {
+                "name": "Mühür",
+                "description": "Seviye atlama seçeneklerinden bir eşyayı veya ışık kaynaklarından bir toplanabilir'i ÇIKARMAYA izin verir. KOLEKSİYON menüsünde kullanın."
+            },
+            "CHARM": {
+                "name": "Letafet",
+                "description": "Düşmanların doğma sayısını rütbe başına 20 artırır (maks +100)."
             }
         }
     },
@@ -1209,35 +1297,35 @@
         "translations": {
             "POWER": {
                 "name": "Potència",
-                "description": "Augmenta Dany aplicat per 5% per rang (max +25%)."
+                "description": "Augmenta Dany aplicat per 5% per rang (màx +25%)."
             },
             "REGEN": {
-                "name": "Recuperar",
-                "description": "Recupera 0.1 PV per segon per rang (0.5 max)."
+                "name": "Recuperació",
+                "description": "Recupera 0.1 PV per segon per rang (0.5 màx)."
             },
             "MAXHEALTH": {
-                "name": "Salut Màx",
-                "description": "Augmenta la salut màxima per 10% per rang (max +30%)."
+                "name": "Salut Màxima",
+                "description": "Augmenta la salut màxima per 10% per rang (màx +30%)."
             },
             "ARMOR": {
                 "name": "Armadura",
-                "description": "Redueix el D  any rebut per 1 per rang (max -3)."
+                "description": "Redueix el Dany rebut per 1 per rang (màx -3)."
             },
             "AREA": {
                 "name": "Àrea",
-                "description": "Augmenta l'àrea dels atacs per 5% per rang (max +10%)."
+                "description": "Augmenta l'àrea dels atacs per 5% per rang (màx +10%)."
             },
             "SPEED": {
                 "name": "Velocitat",
-                "description": "Els projectils es mouen 10% més ràpid per rang (max 20%)."
+                "description": "Els projectils es mouen 10% més ràpid per rang (màx 20%)."
             },
             "COOLDOWN": {
-                "name": "Recarga",
-                "description": "Usa les armes 2.5% més ràpid per rang (max 5%)."
+                "name": "Recàrrega",
+                "description": "Fes servir les armes 2.5% més ràpid per rang (màx 5%)."
             },
             "DURATION": {
                 "name": "Duració",
-                "description": "Els efectes de les armes duren 15% més per rang (max +30%)."
+                "description": "Els efectes de les armes duren 15% més per rang (màx +30%)."
             },
             "AMOUNT": {
                 "name": "Quantitat",
@@ -1245,23 +1333,23 @@
             },
             "MOVESPEED": {
                 "name": "Vel Mov",
-                "description": "El personatge es mou 5% més ràpid per rang (max 10%)."
+                "description": "El personatge es mou 5% més ràpid per rang (màx 10%)."
             },
             "MAGNET": {
                 "name": "Imant",
-                "description": "El radi de Recollida augmenta +25% per rang (max +50%)."
+                "description": "El radi de Recollida augmenta +25% per rang (màx +50%)."
             },
             "LUCK": {
                 "name": "Sort",
-                "description": "La probabilitat de fer sort puja per 10% per rang (max +30%)."
+                "description": "La probabilitat de fer sort puja un 10% per rang (màx +30%)."
             },
             "GROWTH": {
                 "name": "Creixement",
-                "description": "Aconsegueix 3% més d'experiència per rang (max 15%)."
+                "description": "Aconsegueix 3% més d'experiència per rang (màx 15%)."
             },
             "GREED": {
-                "name": "Avaricia",
-                "description": "Guanya un 10% més d'Or per rang (max +50%)."
+                "name": "Avarícia",
+                "description": "Guanya un 10% més d'Or per rang (màx +50%)."
             },
             "SHIELD": {
                 "name": "Escut",
@@ -1272,16 +1360,16 @@
                 "description": "Reviu una vegada amb 50% de salut."
             },
             "REROLL": {
-                "name": "Segón Llençament",
+                "name": "Segon Llançament",
                 "description": "Dues vegades per rang, permet tenir diferents opcions quan es puja de nivell."
             },
             "SKIP": {
-                "name": "Ometre",
-                "description": "Dues vegades per rang, us permet ometre opcions de pujada de nivell i obtenir Experiencia."
+                "name": "Omet",
+                "description": "Dues vegades per rang, us permet ometre opcions de pujada de nivell i obtenir Experiència."
             },
             "CURSE": {
                 "name": "Maledicció",
-                "description": "Augmenta velocitat d'enemics, salut, quantitat, i freqüència per 10% per rang (max +50%)."
+                "description": "Augmenta velocitat d'enemics, salut, quantitat i freqüència per 10% per rang (màx +50%)."
             },
             "BANISH": {
                 "name": "Desaparició",
@@ -1289,15 +1377,15 @@
             },
             "PANDORA": {
                 "name": "Omni",
-                "description": "Augmenta Potència, Velocitat de Projectils, Duració, i Àrea per 2% cada rang (max + 10%)."
+                "description": "Augmenta Potència, Velocitat de Projectils, Duració i Àrea per 2% cada rang (màx + 10%)."
             },
             "SEAL": {
-                "name": "",
-                "description": ""
+                "name": "Segell",
+                "description": "Permet la Desaparició d'un objecte de les opcions de pujada de nivell o col·leccionables de fonts de llum. Utilitza al menú de COL·LECCIÓ."
             },
             "CHARM": {
-                "name": "",
-                "description": ""
+                "name": "Amulet",
+                "description": "Augmenta la quantitat de generació dels enemics en 20 per rang (màx +100)."
             }
         }
     }

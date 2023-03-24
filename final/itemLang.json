@@ -150,14 +150,52 @@
                 "achievementTips": "翻转模式。"
             },
             "ALWAYS_COINBAG2": {
-                "name": "[总是] 大钱袋",
+                "name": "[全局]大钱袋",
                 "description": "你的金币总数+25。",
-                "tips": "在其余的跑步中总是选择。"
+                "tips": "在本轮游戏中始终选取大钱袋。"
             },
             "ALWAYS_ROAST": {
-                "name": "[总是] 烤鸡",
+                "name": "[全局]烤鸡",
                 "description": "生命值+30。",
-                "tips": "在其余的跑步中，如果缺失健康，总是会选择硬币。"
+                "tips": "在本轮游戏中， 如果已经受伤， 则始终选择烤鸡； 否则选取大钱袋。"
+            },
+            "DUMMY_SKIP": {
+                "name": "跳过",
+                "description": "本轮游戏的跳过机会+1。"
+            },
+            "DUMMY_BANISH": {
+                "name": "排除",
+                "description": "本轮游戏的排除机会+1。"
+            },
+            "DUMMY_REROLL": {
+                "name": "重选",
+                "description": "本轮游戏的重选机会+1。"
+            },
+            "DUMMY_REVIVAL": {
+                "name": "复活",
+                "description": "本轮游戏的复活机会+1。"
+            },
+            "DUMMY_ARC": {
+                "name": "选牌",
+                "description": "本轮游戏获得一张额外的秘法牌。"
+            },
+            "PURIFY2": {
+                "name": "佛斯卡利的灯笼",
+                "description": "针对移动速度，永久移除所有金蛋加成，此操作不可撤销。"
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "无脑金蛋",
+                "description": "花最多的钱，买最多的金蛋。"
+            },
+            "RELIC_MALACHITE": {
+                "name": "混沌孔雀石",
+                "description": "“死东西”在达到80级时可以变身。",
+                "achievementTips": "“死东西”之魂"
+            },
+            "RELIC_CHARM": {
+                "name": "一瓶药",
+                "description": "可以购买强化：魅惑。",
+                "achievementTips": "强化：魅惑。"
             }
         }
     },
@@ -516,14 +554,52 @@
                 "achievementTips": "Mode inversé."
             },
             "ALWAYS_COINBAG2": {
-                "name": "[Toujours] Sac d'or",
+                "name": "[Persistant] Sac d'or",
                 "description": "Obtenez 25 pièces d'or.",
-                "tips": "Toujours choisi, pour le reste de la course."
+                "tips": "Ce choix sera mémorisé pour toute la partie."
             },
             "ALWAYS_ROAST": {
-                "name": "[Toujours] Poulet rôti",
-                "description": "Rend 30 points de vie.",
-                "tips": "Toujours choisi sur des pièces en cas de santé, pour le reste de la course."
+                "name": "[Persistant] Poulet rôti",
+                "description": "Obtenez 30 points de vie.",
+                "tips": "Ce choix sera mémorisé pour toute la partie, sauf quand vos PV sont au max."
+            },
+            "DUMMY_SKIP": {
+                "name": "Snobisme",
+                "description": "+1 Passer pour cette partie."
+            },
+            "DUMMY_BANISH": {
+                "name": "Répulsion",
+                "description": "+1 Bannir pour cette partie."
+            },
+            "DUMMY_REROLL": {
+                "name": "Caprice",
+                "description": "+1 Retenter pour cette partie."
+            },
+            "DUMMY_REVIVAL": {
+                "name": "Résurrection",
+                "description": "+1 Résurrection pour cette partie."
+            },
+            "DUMMY_ARC": {
+                "name": "Pioche",
+                "description": "Arcane bonus pour cette partie."
+            },
+            "PURIFY2": {
+                "name": "Lanterne de Foscari",
+                "description": "Supprime tous les bonus d'Œuf doré pour le déplacement. Cette action est irréversible."
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "ŒUFS MAX",
+                "description": "Dépensez le plus d'or possible pour acheter des Œufs dorés."
+            },
+            "RELIC_MALACHITE": {
+                "name": "Malachite du chaos",
+                "description": "Mortaccio se transforme lorsqu'il atteint le niveau 80.",
+                "achievementTips": "L'anima de Mortaccio."
+            },
+            "RELIC_CHARM": {
+                "name": "Apoplexie",
+                "description": "Permet d'acheter le bonus de charme.",
+                "achievementTips": "Bonus de charme."
             }
         }
     },
@@ -665,14 +741,52 @@
                 "achievementTips": "Umgekehrt-Modus."
             },
             "ALWAYS_COINBAG2": {
-                "name": "[Stets] Großer Münzsack",
+                "name": "[Immer] Großer Münzsack",
                 "description": "Erhöht die Anzahl deiner Goldmünzen um 25.",
-                "tips": "Immer gepflückt, für den Rest des Laufs."
+                "tips": "Wird für den Rest des Laufs immer gewählt."
             },
             "ALWAYS_ROAST": {
-                "name": "[Stets] Brathähnchen",
+                "name": "[Immer] Brathähnchen",
                 "description": "Stellt 30 Lebenspunkte wieder her.",
-                "tips": "Für den Rest des Laufs immer Münzen übernommen, wenn sie Gesundheit fehlt."
+                "tips": "Wird bei niedriger Gesundheit für den Rest des Laufs immer statt Münzen gewählt."
+            },
+            "DUMMY_SKIP": {
+                "name": "Überspringen",
+                "description": "Gewährt +1 Überspringen für diesen Lauf."
+            },
+            "DUMMY_BANISH": {
+                "name": "Verbannen",
+                "description": "Gewährt +1 Verbannen für diesen Lauf."
+            },
+            "DUMMY_REROLL": {
+                "name": "Neuwahl",
+                "description": "Gewährt +1 Neuwahl für diesen Lauf."
+            },
+            "DUMMY_REVIVAL": {
+                "name": "Wiederbeleben",
+                "description": "Gewährt +1 Wiederbeleben für diesen Lauf."
+            },
+            "DUMMY_ARC": {
+                "name": "Karte ziehen",
+                "description": "Gewährt ein extra Arcana für diesen Lauf."
+            },
+            "PURIFY2": {
+                "name": "Laterne von Foscari",
+                "description": "Entfernt dauerhaft alle Goldenes-Ei-Boni aufs Bewegungstempo. Kann nicht rückgängig gemacht werden."
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "MAX. EIER",
+                "description": "Gib möglichst viel Geld aus, um Goldene Eier zu kaufen."
+            },
+            "RELIC_MALACHITE": {
+                "name": "Chaosmalachit",
+                "description": "Ermöglicht Mortaccio die Verwandlung ab Level 80.",
+                "achievementTips": "Anima von Mortaccio."
+            },
+            "RELIC_CHARM": {
+                "name": "Apoplexie",
+                "description": "Ermöglicht den Kauf des Charme-Power-ups.",
+                "achievementTips": "Charme-Power-up."
             }
         }
     },
@@ -828,12 +942,50 @@
             "ALWAYS_COINBAG2": {
                 "name": "[Sempre] Sacchetto colmo d'oro",
                 "description": "Aggiunge 25 monete d'oro al tuo totale.",
-                "tips": "Toujours Choisi, Pour le Reste de la Course."
+                "tips": "Raccolto sempre, per il resto della partita."
             },
             "ALWAYS_ROAST": {
                 "name": "[Sempre] Pollo sul pavimento",
                 "description": "Ripristina 30 punti di salute.",
-                "tips": "Sempre scelto se mancano HP, per il resto della partita."
+                "tips": "Sempre raccolto al posto delle monete in caso la salute non sia al massimo, per il resto della partita."
+            },
+            "DUMMY_SKIP": {
+                "name": "Esenzione",
+                "description": "Conferisce +1 Esenzione per questa partita."
+            },
+            "DUMMY_BANISH": {
+                "name": "Esclusione",
+                "description": "Conferisce +1 Esclusione per questa partita."
+            },
+            "DUMMY_REROLL": {
+                "name": "Risorteggio",
+                "description": "Conferisce +1 Risorteggio per questa partita."
+            },
+            "DUMMY_REVIVAL": {
+                "name": "Resurrezione",
+                "description": "Conferisce +1 Resurrezione per questa partita."
+            },
+            "DUMMY_ARC": {
+                "name": "Scegli una carta",
+                "description": "Fornisce un Arcano aggiuntivo per questa partita."
+            },
+            "PURIFY2": {
+                "name": "Lanterna di Foscari",
+                "description": "Rimuove definitivamente tutti i bonus Uovo d'oro alla Velocità di movimento. Quest'azione è irreversibile."
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "UOVA MASSIME",
+                "description": "Spendi più monete possibili per acquistare Uova d'oro."
+            },
+            "RELIC_MALACHITE": {
+                "name": "Malachite del caos",
+                "description": "Consente a Mortaccio di trasformarsi quando raggiunge il livello 80.",
+                "achievementTips": "Anima di Mortaccio."
+            },
+            "RELIC_CHARM": {
+                "name": "Apoplessia",
+                "description": "Consente di acquistare il potenziamento Fascino.",
+                "achievementTips": "Potenziamento Fascino."
             }
         }
     },
@@ -975,14 +1127,52 @@
                 "achievementTips": "反転モード"
             },
             "ALWAYS_COINBAG2": {
-                "name": "[いつも] 大きな金貨袋",
-                "description": "金貨が25枚増える。",
-                "tips": "残りのランのために、常に選んだ。"
+                "name": "[常時]大きな金貨袋",
+                "description": "合計金貨が25枚増える。",
+                "tips": "ランの残り時間、 常時取得する。"
             },
             "ALWAYS_ROAST": {
-                "name": "[いつも] トリ肉",
+                "name": "[常時]トリ肉",
                 "description": "HPが30回復する。",
-                "tips": "残りの走りのために、健康が欠けている場合は常にコインを選んでください。"
+                "tips": "ランの残り時間、 ライフが不足している場合は常時コインを取得する。"
+            },
+            "DUMMY_SKIP": {
+                "name": "スキップ",
+                "description": "このランのスキップが1増える。"
+            },
+            "DUMMY_BANISH": {
+                "name": "削除",
+                "description": "このランの削除が1増える。"
+            },
+            "DUMMY_REROLL": {
+                "name": "リロール",
+                "description": "このランのリロールが1増える。"
+            },
+            "DUMMY_REVIVAL": {
+                "name": "復活",
+                "description": "このランの復活が1増える。"
+            },
+            "DUMMY_ARC": {
+                "name": "カードを1枚取る",
+                "description": "このランのアルカナが1増える。"
+            },
+            "PURIFY2": {
+                "name": "フォスカリの灯籠",
+                "description": "黄金の卵で上昇した移動速度が永続的に失われる。取り消し不可。"
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "マックスエッグ",
+                "description": "できるだけ多くのゴールドを消費して、金の卵を購入する。"
+            },
+            "RELIC_MALACHITE": {
+                "name": "カオスマラカイト",
+                "description": "レベル80になるとモルタッチオが進化する。",
+                "achievementTips": "モルタッチョのアニマ"
+            },
+            "RELIC_CHARM": {
+                "name": "脳卒中",
+                "description": "チャームパワーアップを購入できる。",
+                "achievementTips": "チャームパワーアップ"
             }
         }
     },
@@ -1124,14 +1314,52 @@
                 "achievementTips": "반전 모드입니다."
             },
             "ALWAYS_COINBAG2": {
-                "name": "[언제나] 큰 금화 주머니",
+                "name": "[항상] 큰 금화 주머니",
                 "description": "25골드를 획득합니다.",
-                "tips": "나머지 달리기를 위해 항상 골라 냈습니다."
+                "tips": "나머지 게임 동안 항상 선택됩니다."
             },
             "ALWAYS_ROAST": {
-                "name": "[언제나] 치킨",
+                "name": "[항상] 치킨",
                 "description": "체력을 30 회복합니다.",
-                "tips": "나머지 달리기 동안 건강이 누락되면 항상 동전을 골랐습니다."
+                "tips": "체력을 잃은 경우 나머지 게임 동안 코인이 아닌 이 아이템이 항상 선택됩니다."
+            },
+            "DUMMY_SKIP": {
+                "name": "건너뛰기",
+                "description": "이 게임에 대해 건너뛰기를 +1 부여합니다."
+            },
+            "DUMMY_BANISH": {
+                "name": "지우기",
+                "description": "이 게임에 대해 지우기를 +1 부여합니다."
+            },
+            "DUMMY_REROLL": {
+                "name": "새로고침",
+                "description": "이 게임에 대해 새로고침을 +1 부여합니다."
+            },
+            "DUMMY_REVIVAL": {
+                "name": "부활",
+                "description": "이 게임에 대해 부활을 +1 부여합니다."
+            },
+            "DUMMY_ARC": {
+                "name": "카드 선택",
+                "description": "이번 게임에서 추가 아르카나를 부여합니다."
+            },
+            "PURIFY2": {
+                "name": "포스카리의 등불",
+                "description": "이동 속도에 대한 모든 황금알 보너스를 영구적으로 제거합니다. 이는 실행 취소할 수 없습니다."
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "최대 황금알",
+                "description": "황금알을 구매하기 위해 최대한 많은 골드를 사용합니다."
+            },
+            "RELIC_MALACHITE": {
+                "name": "카오스 말라카이트",
+                "description": "레벨 80 도달 시 모르타치오가 변신할 수 있습니다.",
+                "achievementTips": "모르타치오의 아니마입니다."
+            },
+            "RELIC_CHARM": {
+                "name": "아포플렉시",
+                "description": "매력 강화를 구매할 수 있습니다.",
+                "achievementTips": "매력 강화입니다."
             }
         }
     },
@@ -1280,13 +1508,51 @@
             },
             "ALWAYS_COINBAG2": {
                 "name": "[Zawsze] Duży worek monet",
-                "description": "Dodaje 25 do sumy Złotych monet.",
-                "tips": "Zawsze wybierane przez resztę biegu."
+                "description": "Dodaje 25 do sumy złotych monet.",
+                "tips": "Ta opcja będzie wybierana za każdym razem do końca tej rozgrywki."
             },
             "ALWAYS_ROAST": {
                 "name": "[Zawsze] Kurczak",
-                "description": "Przywraca 30 Punktów życia.",
-                "tips": "Zawsze wybierałem monety, jeśli brakuje zdrowia, przez resztę biegu."
+                "description": "Przywraca 30 Punktów zdrowia.",
+                "tips": "Zawsze wybierany zamiast monet, jeśli brakuje ci zdrowia. Obowiązuje do końca tej rozgrywki."
+            },
+            "DUMMY_SKIP": {
+                "name": "Pominięcie",
+                "description": "Daje +1 Pominięcie w tej rozgrywce."
+            },
+            "DUMMY_BANISH": {
+                "name": "Odrzucenie",
+                "description": "Daje +1 Odrzucenie w tej rozgrywce."
+            },
+            "DUMMY_REROLL": {
+                "name": "Zmiana",
+                "description": "Daje +1 Zmianę w tej rozgrywce."
+            },
+            "DUMMY_REVIVAL": {
+                "name": "Wskrzeszenie",
+                "description": "Daje +1 Wskrzeszenie w tej rozgrywce."
+            },
+            "DUMMY_ARC": {
+                "name": "Wybierz kartę",
+                "description": "Daje dodatkową Arkanę w tej rozgrywce."
+            },
+            "PURIFY2": {
+                "name": "Latarnia Foscari",
+                "description": "Na stałe usuwa wszystkie premie do Prędkości ruchu ze Złotych jaj. Nie można tego cofnąć."
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "MAKSYMALNA LICZBA JAJ",
+                "description": "Wydaj jak najwięcej złota na zakup Złotych jaj."
+            },
+            "RELIC_MALACHITE": {
+                "name": "Malachit Chaosu",
+                "description": "Umożliwia Mortaccio przekształcenie się po osiągnięciu 80. poziomu.",
+                "achievementTips": "Anima Mortaccio."
+            },
+            "RELIC_CHARM": {
+                "name": "Apopleksja",
+                "description": "Odblokowuje wzmocnienie Urok.",
+                "achievementTips": "Wzmocnienie Urok."
             }
         }
     },
@@ -1434,14 +1700,52 @@
                 "achievementTips": "Modo Invertido."
             },
             "ALWAYS_COINBAG2": {
-                "name": "[Sempre]Bolsona de Moedas",
+                "name": "[Sempre] Bolsona de Moedas",
                 "description": "Adiciona 25 moedas de ouro ao total.",
-                "tips": "Sempre escolhido, pelo resto da corrida."
+                "tips": "Sempre escolher isso, até o fim da partida."
             },
             "ALWAYS_ROAST": {
                 "name": "[Sempre] Frango Assado",
                 "description": "Restaura 30 pontos de Vida.",
-                "tips": "Sempre escolhido por moedas se perder a saúde, pelo resto da corrida."
+                "tips": "Se perder Vida, sempre escolher isso até o fim da partida, em vez de moedas."
+            },
+            "DUMMY_SKIP": {
+                "name": "Adiar",
+                "description": "Concede +1 Adiar para a partida."
+            },
+            "DUMMY_BANISH": {
+                "name": "Banir",
+                "description": "Concede +1 Banir para a partida."
+            },
+            "DUMMY_REROLL": {
+                "name": "Rolar Nov.",
+                "description": "Concede +1 Rolar Nov. para a partida."
+            },
+            "DUMMY_REVIVAL": {
+                "name": "Ressurreição",
+                "description": "Concede +1 Ressurreição para a partida."
+            },
+            "DUMMY_ARC": {
+                "name": "Escolha uma Carta",
+                "description": "Concede uma Arcana extra para a partida."
+            },
+            "PURIFY2": {
+                "name": "Luminária de Foscari",
+                "description": "Remove permanentemente todos os bônus de Ovos Dourados na Velocidade de Movimento. Não pode ser desfeito."
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "MÁX. DE OVOS",
+                "description": "Gaste o máximo de ouro possível para comprar Ovos Dourados."
+            },
+            "RELIC_MALACHITE": {
+                "name": "Malaquita do Caos",
+                "description": "Permite que Mortaccio se transforme ao alcançar o nível 80.",
+                "achievementTips": "Anima de Mortaccio."
+            },
+            "RELIC_CHARM": {
+                "name": "Apoplexia",
+                "description": "Permite comprar o aprimoramento Charme.",
+                "achievementTips": "Aprimoramento Charme."
             }
         }
     },
@@ -1591,12 +1895,50 @@
             "ALWAYS_COINBAG2": {
                 "name": "[Всегда] Большой мешок денег",
                 "description": "Добавляет 25 к запасу золотых монет.",
-                "tips": "Всегда выбирается, для остальной части пробега."
+                "tips": "Всегда выбрано до конца забега."
             },
             "ALWAYS_ROAST": {
                 "name": "[Всегда] Жареный цыпленок",
                 "description": "Восстанавливает 30 ОЗ.",
-                "tips": "Всегда выбирают монеты, если пропустить здоровье, для остальной части пробега."
+                "tips": "Вы будете собирать его вместо монет, если не хватает здоровья, до конца забега."
+            },
+            "DUMMY_SKIP": {
+                "name": "Пропуск",
+                "description": "Дает +1 пропуск в этом забеге."
+            },
+            "DUMMY_BANISH": {
+                "name": "Изгнание",
+                "description": "Дает +1 изгнание в этом забеге."
+            },
+            "DUMMY_REROLL": {
+                "name": "Повтор",
+                "description": "Дает +1 повтор в этом забеге."
+            },
+            "DUMMY_REVIVAL": {
+                "name": "Оживление",
+                "description": "Дает +1 оживление в этом забеге."
+            },
+            "DUMMY_ARC": {
+                "name": "Выбрать карту",
+                "description": "Дает дополнительную Аркану в этом забеге."
+            },
+            "PURIFY2": {
+                "name": "Фонарь Фоскари",
+                "description": "Убирает все бонусы золотых яиц для скорости движения. Нельзя отменить."
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "МАКСИМУМ ЯИЦ",
+                "description": "Потратьте как можно больше золота на покупку Золотых яиц."
+            },
+            "RELIC_MALACHITE": {
+                "name": "Малахит хаоса",
+                "description": "Позволяет Мортаччо менять форму по достижении 80 уровня.",
+                "achievementTips": "Анима Мортаччо."
+            },
+            "RELIC_CHARM": {
+                "name": "Апоплексия",
+                "description": "Позволяет приобрести усиление «Очарование».",
+                "achievementTips": "Усиление «Очарование»."
             }
         }
     },
@@ -1740,12 +2082,50 @@
             "ALWAYS_COINBAG2": {
                 "name": "[Siempre] Saco de monedas",
                 "description": "25 monedas de oro.",
-                "tips": "Siempre elegido, por el resto de la carrera."
+                "tips": "Siempre se escoge durante el resto de la partida."
             },
             "ALWAYS_ROAST": {
                 "name": "[Siempre] Pollo asado",
                 "description": "Recupera 30 puntos de salud.",
-                "tips": "Siempre recogía monedas si faltan salud, por el resto de la carrera."
+                "tips": "Siempre se escoge en lugar de las monedas durante el resto de la partida si te falta salud."
+            },
+            "DUMMY_SKIP": {
+                "name": "Saltar",
+                "description": "Otorga +1 uso de saltar para esta partida."
+            },
+            "DUMMY_BANISH": {
+                "name": "Eliminar",
+                "description": "Otorga +1 uso de eliminar para esta partida."
+            },
+            "DUMMY_REROLL": {
+                "name": "Cambiar",
+                "description": "Otorga +1 uso de cambiar para esta partida."
+            },
+            "DUMMY_REVIVAL": {
+                "name": "Resurrección",
+                "description": "Otorga +1 resurrección para esta partida."
+            },
+            "DUMMY_ARC": {
+                "name": "Elige una carta",
+                "description": "Otorga un arcano adicional para esta partida."
+            },
+            "PURIFY2": {
+                "name": "Farol de Foscari",
+                "description": "Elimina de forma permanente todas las bonificaciones de huevo de oro a la vel. de movimiento. No se puede deshacer."
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "MÁX. DE HUEVOS",
+                "description": "Usa la mayor cantidad de oro posible para comprar huevos de oro."
+            },
+            "RELIC_MALACHITE": {
+                "name": "Malaquita del caos",
+                "description": "Permite que Mortaccio se transforme al alcanzar el nivel 80.",
+                "achievementTips": "Ánima de Mortaccio."
+            },
+            "RELIC_CHARM": {
+                "name": "Apoplejía",
+                "description": "Permite comprar la mejora encanto.",
+                "achievementTips": "Mejora encanto."
             }
         }
     },
@@ -1905,14 +2285,52 @@
                 "achievementTips": "Ters mod."
             },
             "ALWAYS_COINBAG2": {
-                "name": "[Hep] Büyük Akçe Çuvalı",
-                "description": "Toplam Altın Akçeni 25 arttırır.",
-                "tips": "Koşunun geri kalanı için her zaman seçildi."
+                "name": "[Her Zaman] Büyük Akçe Çuvalı",
+                "description": "Toplam altın akçenizi 25 arttırır.",
+                "tips": "Oyunun geri kalanı için kalıcı olarak seçildi."
             },
             "ALWAYS_ROAST": {
-                "name": "[Hep] Gezmeyen Tavuk",
+                "name": "[Her Zaman] Gezmeyen Tavuk",
                 "description": "30 Sağlık puanı yeniler.",
-                "tips": "Koşunun geri kalanı için her zaman sağlıksızsa paraları seçti."
+                "tips": "Sağlık az ise akçelerin yerine oyunun geri kalanı için kalıcı olarak seçildi."
+            },
+            "DUMMY_SKIP": {
+                "name": "Atla",
+                "description": "Bu oyun için +1 Atlama verir."
+            },
+            "DUMMY_BANISH": {
+                "name": "Çıkarma",
+                "description": "Bu oyun için +1 Çıkarma verir."
+            },
+            "DUMMY_REROLL": {
+                "name": "Tekrar Atma",
+                "description": "Bu oyun için +1 Tekrar Atma verir."
+            },
+            "DUMMY_REVIVAL": {
+                "name": "Canlanma",
+                "description": "Bu oyun için +1 Canlanma verir."
+            },
+            "DUMMY_ARC": {
+                "name": "Bir Kart Seç",
+                "description": "Bu oyun için fazladan bir Arcana verir."
+            },
+            "PURIFY2": {
+                "name": "Foscari'nin Feneri",
+                "description": "HareketHızı'ndaki tüm Altın Yumurta bonuslarını kalıcı olarak kaldırır. Geri dönüşü yoktur."
+            },
+            "DUMMY_GOLDENEGG_MAX": {
+                "name": "MAKS YUMURTALAR",
+                "description": "Altın Yumurta satın almak için olabildiğince çok altın harca."
+            },
+            "RELIC_MALACHITE": {
+                "name": "Kaos Malahiti",
+                "description": "Seviye 80'e ulaşırken Mortaccio'nun dönüşmesine olanak sağlar.",
+                "achievementTips": "Mortaccio'nun Animası"
+            },
+            "RELIC_CHARM": {
+                "name": "İnmeletici",
+                "description": "Letafet Güçlendirmesi'ni satın almaya olanak sağlar.",
+                "achievementTips": "Letafet Güçlendirmesi."
             }
         }
     },
@@ -1934,7 +2352,7 @@
         "api": "catalan",
         "translations": {
             "CLOVER": {
-                "description": "Agafa per fer-te 10% més sortós.",
+                "description": "Agafa'n per tenir un 10% més de sort.",
                 "name": "Trèvol Petit"
             },
             "COIN": {
@@ -1946,32 +2364,32 @@
                 "name": "Bossa d'Or"
             },
             "COINBAG2": {
-                "description": "Afegeix 25 al teu total de monedes d'Or.",
+                "description": "Afegeix 25 al teu total de monedes d'or.",
                 "name": "Sac d'Or"
             },
             "COINBAGMAX": {
                 "description": "Afegeix 100 al teu total de monedes d'Or.",
                 "name": "Sac d'Or Abundant",
-                "tips": "Posibilitat d'aparició afectada per Sort."
+                "tips": "Possibilitat d'aparició afectada per Sort."
             },
             "GEM": {
                 "description": "Augmenta l'experiència.",
-                "name": "Gema d'experiència"
+                "name": "Gemma d'experiència"
             },
             "OROLOGION": {
-                "description": "Congela al temps tots els enemics per 10 segons.",
+                "description": "Congela tots els enemics en el temps durant 10 segons.",
                 "name": "Orologion",
-                "tips": "Posibilitat d'aparició afectada per Sort."
+                "tips": "Possibilitat d'aparició afectada per Sort."
             },
             "ROAST": {
                 "description": "Restaura 30 punts de Vida.",
                 "name": "Pollastre Rostit",
-                "tips": "Posibilitat d'aparició afectada per Sort."
+                "tips": "Possibilitat d'aparició afectada per Sort."
             },
             "ROSARY": {
                 "description": "Elimina tots els enemics visibles.",
                 "name": "Rosari",
-                "tips": "Posibilitat d'aparició afectada per Sort."
+                "tips": "Possibilitat d'aparició afectada per Sort."
             },
             "TREASURE": {
                 "description": "Atorga monedes i Millores. Botí d'enemics poderosos.",
@@ -1979,14 +2397,14 @@
                 "tips": "Qualitat afectada per la Sort."
             },
             "VACUUM": {
-                "description": "Recull totes les gemes d'Expriència del terra.",
+                "description": "Recull totes les gemmes d'Expriència de terra.",
                 "name": "Vòrtex",
-                "tips": "Posibilitat d'aparició afectada per Sort."
+                "tips": "Possibilitat d'aparició afectada per Sort."
             },
             "NFT": {
                 "description": "Emet columnes de foc temporalment. Afectat per les estadístiques del jugador.",
                 "name": "Nduja Fritta",
-                "tips": "Posibilitat d'aparició afectada per Sort."
+                "tips": "Possibilitat d'aparició afectada per Sort."
             },
             "RELIC_MAP": {
                 "name": "Mapa de la Via Làctia",
@@ -1995,7 +2413,7 @@
             },
             "RELIC_TEAR": {
                 "name": "Llàgrimes de Bruixa",
-                "description": "Permanentment permet accelerar el temps a la Selecció d'Escenaris.",
+                "description": "Permet accelerar el temps a la Selecció d'Escenaris de manera permanent.",
                 "achievementTips": "Mode ràpid"
             },
             "RELIC_RANDOMAZZO": {
@@ -2004,65 +2422,65 @@
                 "achievementTips": "Arcanas"
             },
             "RELIC_BANGER": {
-                "description": "Permet canviar música a la selecció d'escenaris permanentment.",
+                "description": "Permet canviar la música a la selecció d'escenaris permanentment.",
                 "name": "Hit Màgic",
                 "achievementTips": "Selecció musical"
             },
             "GILDED": {
-                "description": "Recull tot l'Or del terra i activa Febre d'Or.",
+                "description": "Recull tot l'Or de terra i activa Febre d'Or.",
                 "name": "Trèvol Daurat"
             },
             "RELIC_GLASSMASK": {
                 "name": "Vizard de Vidre",
-                "description": "Invoca al mercader a tots els escenaris.",
+                "description": "Invoca el mercader a tots els escenaris.",
                 "achievementTips": "Mercader"
             },
             "RELIC_GOLDENEGG": {
                 "name": "Ou d'Or",
-                "description": "Permanentment millora una estadística aleatòria del personatge actual, en una petita quantitat."
+                "description": "Millora Permanentment una estadística aleatòria del personatge actual, en una petita quantitat."
             },
             "RELIC_YELLOW": {
                 "name": "Signe Groc",
-                "description": "Permanentment permet la detecció d'objectes ocults a tots els escenaris.",
+                "description": "Permet la detecció d'objectes ocults a tots els escenaris de manera permanent.",
                 "achievementTips": "Objectes ocults d'escenari"
             },
             "RELIC_GRIMOIRE": {
                 "name": "Grimori Lúgubre",
-                "description": "Permanentment permet mirar a evolucions descobertes d'armes i unions des del menú de pausa.",
+                "description": "Permet mirar evolucions descobertes d'armes i unions des del menú de pausa de manera permanent.",
                 "achievementTips": "Llista d'evolucions"
             },
             "RELIC_NOSEGLASSES": {
                 "name": "Doblegaments",
-                "description": "Permanentment permet canviar l'aparença (on sigui aplicable) i el límit d'arsenal.",
+                "description": "Permet canviar l'aparença (on sigui aplicable) i el límit d'arsenal de manera permanent.",
                 "achievementTips": "Personalització de personatge"
             },
             "RELIC_GOUDA": {
                 "name": "Ars Gouda",
-                "description": "Permanentment permet accés a la llista d'enemic derrotats des del mení d'inici.",
+                "description": "Permet accés a la llista d'enemics derrotats des del mení d'inici de manera permanent.",
                 "achievementTips": "Bestiari"
             },
             "RELIC_GGOSPEL": {
                 "name": "Gran Evangeli",
-                "description": "Permanentment permet pujar de nivell armes més enllà del seu límit. Pot ser activat a Selecció d'Escenaris.",
-                "achievementTips": "Trencar Límit."
+                "description": "Permet pujar de nivell armes més enllà del seu límit de manera permanent. Pot ser activat a Selecció d'Escenaris.",
+                "achievementTips": "Trenca Límit."
             },
             "RELIC_SECRETS": {
                 "name": "Pergamins Prohibits de Morbane",
-                "description": "Permanentment et permet llençar encanteris i accedir a la llista de secrets des del menú d'inici.",
+                "description": "Permet llençar encanteris i accedir a la llista de secrets des del menú d'inici de manera permanent.",
                 "achievementTips": "???"
             },
             "PURIFY": {
-                "name": "Flames de Lluna Màgia",
-                "description": "Permanentment extrau 100 bonificacions d'Ous d'Or. Això no es pot desfer."
+                "name": "Flames Encíslunar",
+                "description": "Extreu 100 bonificacions d'Ous d'Or de manera permanent. Això no es pot desfer."
             },
             "RELIC_TRUMPET": {
-                "name": "Sèptima Trompeta",
-                "description": "Permanentment permet desactivar tots els segadors i lluitar sens fi.",
+                "name": "Setena Trompeta",
+                "description": "Permet desactivar tots els segadors i lluitar sense fi de manera permanent.",
                 "achievementTips": "Mode infinit."
             },
             "RELIC_MIRROR": {
                 "name": "Mirall de Gracia",
-                "description": "Permanentment permet accedir a una versió més difícil de qualsevol escenari.",
+                "description": "Permet accedir a una versió més difícil de qualsevol escenari de manera permanent.",
                 "achievementTips": "Mode invertit."
             },
             "ALWAYS_COINBAG2": {
@@ -2073,45 +2491,45 @@
             "ALWAYS_ROAST": {
                 "name": "[Always] Pollastre Rostit",
                 "description": "Restaura 30 punts de Vida.",
-                "tips": "Sempre agafat per abans que monedes si manca vida, per la resta de la sessió."
+                "tips": "Sempre es recull en lloc de les monedes si manca vida, per la resta de la sessió."
             },
             "DUMMY_SKIP": {
-                "name": "",
-                "description": ""
+                "name": "Omet",
+                "description": "Dona +1 Omissió per a aquesta sessió."
             },
             "DUMMY_BANISH": {
-                "name": "",
-                "description": ""
+                "name": "Desaparició",
+                "description": "Dona +1 Desaparició per a aquesta sessió."
             },
             "DUMMY_REROLL": {
-                "name": "",
-                "description": ""
+                "name": "Segon Llançament",
+                "description": "Dona +1 Segon Llançament per a aquesta sessió."
             },
             "DUMMY_REVIVAL": {
-                "name": "",
-                "description": ""
+                "name": "Resurrecció",
+                "description": "Dona +1 Resurrecció per a aquesta sessió."
             },
             "DUMMY_ARC": {
-                "name": "",
-                "description": ""
+                "name": "Tria una Carta",
+                "description": "Dona una Arcana extra per a aquesta sessió."
             },
             "PURIFY2": {
-                "name": "",
-                "description": ""
+                "name": "Llanterna de Foscari",
+                "description": "Desactiva permanentment totes les bonificacions d'Ous d'Or a Velocitat de Moviment. Això no es pot anular."
             },
             "DUMMY_GOLDENEGG_MAX": {
-                "name": "",
-                "description": ""
+                "name": "OUS MÀXIMS",
+                "description": "Gasta tant d'or com sigui possible per comprar Ous d'Or."
             },
             "RELIC_MALACHITE": {
-                "name": "C",
-                "description": "",
-                "achievementTips": ""
+                "name": "Malaquita del Caos",
+                "description": "Permet al Mortaccio transformar-se quan arriba al Nivell 80.",
+                "achievementTips": "Ànima del Mortaccio."
             },
             "RELIC_CHARM": {
-                "name": "",
-                "description": "",
-                "achievementTips": ""
+                "name": "Apoplexia",
+                "description": "Permet comprar l'Encanteri Alça de Poder.",
+                "achievementTips": "Encanteri Alça de Poder."
             }
         }
     }
