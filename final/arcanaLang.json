@@ -1265,7 +1265,7 @@
             },
             "4": {
                 "name": "IV - Despert",
-                "description": "Dona +3 Resurreccions. Consumir una resurrecció dona +10% Vida Màxima, +1 Armadura, i +5% Força, Duració, i Velocitat."
+                "description": "Dona +3 Resurreccions. Consumir una resurrecció dona +10% Vida Màxima, +1 Armadura, i +5% Força, Durada, i Velocitat."
             },
             "5": {
                 "name": "V - Caos a la Nit Obscura",
@@ -1317,7 +1317,7 @@
             },
             "17": {
                 "name": "XVII - Quadre Perdut i Trobat",
-                "description": "Duració total canvia contínuament entre -50% i +200% durant 10 segons."
+                "description": "Durada total canvia contínuament entre -50% i +200% durant 10 segons."
             },
             "18": {
                 "name": "XVIII - Boogaloo d'Il·lusions",

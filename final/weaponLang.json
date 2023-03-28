@@ -5909,7 +5909,7 @@
                 "description": "Fes servir les armes 2.5% més ràpid per rang (màx 5%)."
             },
             "DURATION": {
-                "name": "Duració",
+                "name": "Durada",
                 "description": "Els efectes de les armes duren 15% més per rang (màx +30%)."
             },
             "AMOUNT": {
@@ -6084,9 +6084,9 @@
             },
             "PANDORA": {
                 "tips": "Capsa de la Torrona",
-                "description": "Augmenta Potència, Velocitat de Projectils, Duració i Àrea per 2% cada rang (màx + 10%).",
-                "customDescValue": "Augmenta la Potència, la Velocitat, la Duració i l'Àrea dels projectils en %0%",
-                "customOverrideValue": "Objecte maleït, Augmenta la Potència, la Velocitat, la Duració i l'Àrea dels projectils en %0%",
+                "description": "Augmenta Potència, Velocitat de Projectils, Durada i Àrea per 2% cada rang (màx + 10%).",
+                "customDescValue": "Augmenta la Potència, la Velocitat, la Durada i l'Àrea dels projectils en %0%",
+                "customOverrideValue": "Objecte maleït, Augmenta la Potència, la Velocitat, la Durada i l'Àrea dels projectils en %0%",
                 "name": "Omni"
             },
             "ROBBA": {

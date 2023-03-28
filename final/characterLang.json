@@ -2984,7 +2984,7 @@
             "POPPEA": {
                 "charName": "Poppea",
                 "surname": "Pecorina",
-                "description": "Guanya +1% de Duració cada nivell."
+                "description": "Guanya +1% de Durada cada nivell."
             },
             "CRISTINA": {
                 "description": "Comença amb 1 nivell extra.",
@@ -3030,12 +3030,12 @@
             "ASSUNTA": {
                 "charName": "Zi'Assunta",
                 "surname": "Belpaese",
-                "description": "Guanya +0,5% de Potència, Velocitat de projectil, Duració i Àrea cada nivell."
+                "description": "Guanya +0,5% de Potència, Velocitat de projectil, Durada i Àrea cada nivell."
             },
             "GRAZIELLA": {
                 "charName": "Minnah",
                 "surname": "Mannarah",
-                "description": "Potència, Velocitat de projectil, Duració, Àrea i Recàrrega canvien cada minut."
+                "description": "Potència, Velocitat de projectil, Durada, Àrea i Recàrrega canvien cada minut."
             },
             "NEO": {
                 "charName": "Marrabbio",
