@@ -107,7 +107,11 @@
             },
             "CHARM": {
                 "name": "魅惑",
-                "description": "每强化一层，敌人的刷新数量+20，最多+100。"
+                "description": "每强化一层， 敌人的刷新数量+20， 最多+100。"
+            },
+            "SEAL2": {
+                "name": "封印（二）",
+                "description": "允许你在升级时排除一个物品， 或排除光源中的掉落物； 需在藏品菜单中使用。"
             }
         }
     },
@@ -225,12 +229,16 @@
                 "description": "Increases Might, Projectile Speed, Duration, and Area by 2% per rank (max +10%)."
             },
             "SEAL": {
-                "name": "Seal",
+                "name": "Seal I",
                 "description": "Allows to Banish an item from level up choices, or a pickup from light sources. Use in COLLECTION menu."
             },
             "CHARM": {
                 "name": "Charm",
                 "description": "Increases enemies spawn quantity by 20 per rank (max +100)."
+            },
+            "SEAL2": {
+                "name": "Seal II",
+                "description": "Allows to Banish an item from level up choices, or a pickup from light sources. Use in COLLECTION menu."
             }
         }
     },
@@ -336,6 +344,10 @@
             "CHARM": {
                 "name": "Charme",
                 "description": "Augmente la quantité d'ennemis de 20 par rang (+100 max)."
+            },
+            "SEAL2": {
+                "name": "Exclusion II",
+                "description": "Permet de bannir un objet des choix du passage de niveau ou un boost issu des sources de lumière depuis le menu COLLECTION."
             }
         }
     },
@@ -435,6 +447,10 @@
             "CHARM": {
                 "name": "Charme",
                 "description": "Es erscheinen 20 weitere Gegner pro Rang (max. +100)."
+            },
+            "SEAL2": {
+                "name": "Siegel II",
+                "description": "Ermöglicht das Verbannen eines Items aus der Levelaufstieg-Auswahl oder eines Pickups aus Lichtquellen. Im Menü SAMMLUNG verwenden."
             }
         }
     },
@@ -546,6 +562,10 @@
             "CHARM": {
                 "name": "Fascino",
                 "description": "Aumenta i nemici generati di 20 per grado (+100 al massimo)."
+            },
+            "SEAL2": {
+                "name": "Sigillo II",
+                "description": "Permette di Escludere un oggetto dalle scelte del passaggio al nuovo livello o un collezionabile dalle fonti di luce. Puoi usarlo nel menu COLLEZIONE."
             }
         }
     },
@@ -644,7 +664,11 @@
             },
             "CHARM": {
                 "name": "チャーム",
-                "description": "敵の出現数が1ランクにつき20増加する（最大+100）。"
+                "description": "敵の出現数が1ランクにつき20増加する （最大+100）。"
+            },
+            "SEAL2": {
+                "name": "封印2",
+                "description": "レベルアップの選択肢、 または光源からの取得アイテムを消去できる。 コレクションメニューで使用可能。"
             }
         }
     },
@@ -744,6 +768,10 @@
             "CHARM": {
                 "name": "매력",
                 "description": "적의 스폰 수량을 랭크당 20씩 증가시킵니다(최대 +100)."
+            },
+            "SEAL2": {
+                "name": "봉인 II",
+                "description": "레벨업 선택지에서 아이템 하나를 지우거나, 광원에서 하나를 획득합니다. 컬렉션 메뉴에서 사용하세요."
             }
         }
     },
@@ -849,6 +877,10 @@
             "CHARM": {
                 "name": "Urok",
                 "description": "Zwiększa liczbę pojawiających się wrogów o 20 na rangę (maks. +100)."
+            },
+            "SEAL2": {
+                "name": "Zapieczętowanie II",
+                "description": "Pozwala na odrzucenie przedmiotu z puli przyznawanej przy awansie na wyższy poziom lub łupu ze źródeł światła. Użyj w menu KOLEKCJA."
             }
         }
     },
@@ -954,6 +986,10 @@
             "CHARM": {
                 "name": "Charme",
                 "description": "Aumenta a quantidade de inimigos que surgem em 20 por classe (máx. de +100)."
+            },
+            "SEAL2": {
+                "name": "Selar II",
+                "description": "Permite Banir um item das escolhas ao subir de nível ou um coletável das fontes de luz. Para uso no menu COLEÇÃO."
             }
         }
     },
@@ -1059,6 +1095,10 @@
             "CHARM": {
                 "name": "Очарование",
                 "description": "Увеличивает количество появляющихся врагов на 20 за каждый ранг (макс. +100)."
+            },
+            "SEAL2": {
+                "name": "Исключение II",
+                "description": "Позволяет убрать предмет из вариантов при повышении уровня или находку из источников света. Используйте в меню «КОЛЛЕКЦИЯ»."
             }
         }
     },
@@ -1158,6 +1198,10 @@
             "CHARM": {
                 "name": "Encanto",
                 "description": "Aumenta en 20 la cantidad de enemigos que aparecen por grado (máx.: +100)."
+            },
+            "SEAL2": {
+                "name": "Sellar II",
+                "description": "Te permite eliminar un objeto de la selección al subir de nivel o un objeto de las fuentes de luz. Se usa en el menú COLECCIÓN."
             }
         }
     },
@@ -1275,6 +1319,10 @@
             "CHARM": {
                 "name": "Letafet",
                 "description": "Düşmanların doğma sayısını rütbe başına 20 artırır (maks +100)."
+            },
+            "SEAL2": {
+                "name": "Mühür II",
+                "description": "Seviye atlama seçeneklerinden bir eşyayı veya ışık kaynaklarından bir toplanabilir'i Çıkarmaya izin verir. KOLEKSİYON menüsünde kullanılır."
             }
         }
     },
@@ -1380,12 +1428,16 @@
                 "description": "Augmenta Potència, Velocitat de Projectils, Durada i Àrea per 2% cada rang (màx + 10%)."
             },
             "SEAL": {
-                "name": "Segell",
-                "description": "Permet la Desaparició d'un objecte de les opcions de pujada de nivell o col·leccionables de fonts de llum. Utilitza al menú de COL·LECCIÓ."
+                "name": "Segell I",
+                "description": "Permet la Desaparició d'un objecte de les opcions de pujada de nivell o col·leccionables de fonts de llum. Utilitza-ho al menú de COL·LECCIÓ."
             },
             "CHARM": {
                 "name": "Amulet",
                 "description": "Augmenta la quantitat de generació dels enemics en 20 per rang (màx +100)."
+            },
+            "SEAL2": {
+                "name": "Segell II",
+                "description": "Permet la Desaparició d'un objecte de les opcions de pujada de nivell o col·leccionables de fonts de llum. Utilitza-ho al menú de COL·LECCIÓ."
             }
         }
     }
