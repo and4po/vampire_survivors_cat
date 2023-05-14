@@ -4,7 +4,7 @@
 
 Seguiu aquestes instruccions per instal·lar la traducció al català:
 
-1. Baixeu el fitxer zip «_VampireSurvivors-Cat_» des de l'apartat de *releases* (des d’[aquí]()).
+1. Baixeu el fitxer zip «_VampireSurvivors-Cat_» des de l'apartat de *releases* (des d’[aquí](https://github.com/and4po/vampire_survivors_cat/releases/latest/)).
 
 2. Descomprimiu el fitxer.
 
