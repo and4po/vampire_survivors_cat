@@ -15,4 +15,4 @@ Seguiu aquestes instruccions per instal·lar la traducció al català:
 5. Enganxeu-hi allà la carpeta copiada prèviament i premeu 'acceptar' la substitució.
 
 > **Note**
-> Assegureu-vos de fer una còpia de seguretat de la carpeta original del vostre joc per poder desfer la traducció en un futur si fos necessari. Si no, sempre podeu reinstal·lar el joc si fos necessari. Sinó, sempre podeu reinstal·lar el joc.
+> Assegureu-vos de fer una còpia de seguretat de la carpeta original del vostre joc per poder desfer la traducció en un futur si fos necessari. Si no, sempre podeu reinstal·lar el joc.
